@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton;100,200,300,400,500,600,700|Prata: 100,200,300,400,500,600,700|Roboto: 100,200,300,400,500,600,700');
+
+body {
+    background-image: url("/assets/images/headerBg.jpeg");
+    background-repeat: cover;
+}
+
+/* -----------------------------------NAV BAR*/
+
+/*----------------------------------HEADER */
+
+.header-text {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+h1 {
+    font-size: 7em !important;
+    font-family: "Monoton", sans-serif;
+
+}
+
+.text-center {
+    text-align: center;
+}
+
+.social-list {
+    list-style: none;
+}
+
+.social-list li {
+    display: inline;
+    padding: 10px;
+    font-size: 1.5em;
+
+}
+
+.social-list li a {
+    color: #000;
+}
+
+.social-list li a:hover {
+    color: #A8153C;
+}
+
+.tour-updates {
+    width: 100%;
+    background-color: red;
+}
+
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+    
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+    
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';    
+    background: #fafafa;
+    
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+.tour-image {
+    padding-top: 40px;
+    
+}
+
+.tour-image img {
+    border-radius: 50%;
+}
+
