@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Monoton;100,200,300,400,500,600,700|Prata: 100,200,300,400,500,600,700|Roboto: 100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Monoton;100,200,300,400,500,600,700|Prata: 100,200,300,400,500,600,700|Bungee+Inline:100,200,300,400,500,600,700|Roboto: 100,200,300,400,500,600,700|Bungee: 100,200,300,400,500,600,700|Roboto+Condensed|Prata');
 
 body {
-    background-image: url("/assets/images/headerBg.jpeg");
+    background-image: url("/assets/images/white-wavesbg.png");
     background-repeat: cover;
 }
 
@@ -19,8 +19,16 @@ body {
 
 h1 {
     font-size: 7em !important;
-    font-family: "Monoton", sans-serif;
+    font-family: "Bungee Inline", cursive, sans-serif;
+    color: #001a33;
 
+}
+
+.newalbum-info {
+    font-size: 2em;
+    font-family: "Bungee Inline", sans-serif;
+    font-weight: 100;
+    color: #001a33;
 }
 
 .text-center {
@@ -43,31 +51,38 @@ h1 {
 }
 
 .social-list li a:hover {
-    color: #A8153C;
+    color:  #b3daff;
 }
+
+
+/*----------------------------------TOURS */
 
 .tour-updates {
     width: 100%;
-    background-color: red;
+    background-color: #cce6ff;
 }
 
 
-.history-heading {
-    color: #fafafa;
+.tours-heading {
+    color: #001a33;
     margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: "Bungee", sans-serif;
+    font-size: 3em;
     
 }
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
+    font-family: "Roboto Condensed", sans-serif;
     position: relative;
-    color: #fafafa;
+    color: #001a33;
     border-left: 1px solid;
     
 }
 
 .timeline-item p {
-    padding: 0;
+    padding-bottom: 25px; 
     margin: 0;
 }
 
@@ -97,16 +112,34 @@ h1 {
     
 }
 
-.history-items {
+.tour-items {
     margin-bottom: 30px;
 }
 
-.tour-image {
-    padding-top: 40px;
+.tourImages {
+    padding-top: 80px;
     
 }
 
+.tour-image{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
 .tour-image img {
     border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+
+/*----------------------------------MUSIC */
+
+
+.music-video {
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    display: block;
 }
 
