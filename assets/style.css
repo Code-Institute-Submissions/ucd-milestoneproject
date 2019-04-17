@@ -13,14 +13,17 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
 }
 
 h1 {
-    font-size: 7em !important;
+    font-size: 4em !important;
     font-family: "Bungee Inline", cursive, sans-serif;
     color: #001a33;
+    text-align: center;
+    padding-bottom: 40px;
 
 }
 
@@ -69,7 +72,7 @@ h1 {
     margin-top: 50px;
     font-family: "Bungee", sans-serif;
     font-size: 3em;
-    padding-left: 50px;
+    text-align: center;
 
 }
 
@@ -148,12 +151,29 @@ h1 {
     margin-top: 50px;
     font-family: "Bungee", sans-serif;
     font-size: 3em;
-    margin-left: 150px;
+    text-align: center;
+
 
 }
 
-.music-featurette {
-    width: 100%;
+/*----SONG NAME*/
+
+.music-featurette-heading {
+    font-family: "Roboto Condensed", sans-serif;
+    margin-left: 25px;
+    text-align: center;
+}
+
+/*----ALBUM NAME*/
+
+.music-lead {
+    display: block;
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 1em;
+    margin-left: 25px;
+    text-align: center;
+
 }
 
 .embed-responsive {
@@ -161,6 +181,19 @@ h1 {
     padding-left: 25px;
 
 }
+
+.album-img {
+    padding: auto ;
+    width: 160px;
+    height: 150px;
+    vertical-align: center;
+
+}
+
+.music-featurette {
+    width: 100%;
+}
+
 
 .music-features {
     width: 100vh;
@@ -173,30 +206,13 @@ h1 {
 .music {
     padding: 50px, 25px, 50px, 25px;
 }
-.tours-heading {}
+
+
 
 .music-featurette {}
 
-.music-featurette-heading {
-    font-family: "Roboto Condensed", sans-serif;
-    margin-left: 25px;
-    padding-left: 35px;
-    text-align: center;
-   
-
-}
 
 
-.music-lead {
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 1em;
-    margin-left: 25px;
-    padding-left: 35px;
-    text-align: center;
-
-}
 
 .album-lead {}
 
@@ -212,23 +228,169 @@ h1 {
     width: 100%;
 }
 
-.album-img {
-  padding: auto !important;
-  width: 160px;
-  height: 150px;
-  vertical-align: center;
-    
-}
+
 
 /*----------------------------------AUDIO */
 
 .audio-links {
+    margin: 0 auto;
+    position: relative;
     background: #BFE5B9;
-    width: 100%;
     padding-top: 50px;
     padding-bottom: 50px;
-    text-align: center;
+    margin: 0 auto;
+    width: 100vw;
 }
 
 
+/*----------------------------------GALLERY */
 
+.bandGallery {
+    color: #001a33;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: "Bungee", sans-serif;
+    font-size: 3em;
+    padding-left: 50px;
+
+}
+
+.gallery-heading {}
+
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+
+.carousel-item {
+    height: 30rem;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30rem;
+}
+
+/*----------------------------------GALLERY */
+
+@media (min-width: 768px) {
+    .body {
+        background-image: url("/assets/images/white-wavesbg.png");
+        background-repeat: cover;
+    }
+    .header-text {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 300px;
+        padding-bottom: 300px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 7em !important;
+        font-family: "Bungee Inline", cursive, sans-serif;
+        color: #001a33;
+
+    }
+    .music-heading {
+        color: #001a33;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: "Bungee", sans-serif;
+        font-size: 3em;
+        margin-left: 150px;
+
+
+    }
+
+    .tours-heading {
+        color: #001a33;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: "Bungee", sans-serif;
+        font-size: 3em;
+        padding-left: 50px;
+
+    }
+    .music-lead {
+        display: block;
+        font-family: "Exo", sans-serif;
+        font-weight: 500;
+        font-size: 1em;
+        margin-left: 25px;
+        padding-left: 35px;
+        text-align: center;
+
+    }
+    .album-img {
+    padding: auto !important;
+    width: 160px;
+    height: 150px;
+    vertical-align: center;
+
+}
+}
+
+@media (min-width: 992px) {
+    .body {
+        background-image: url("/assets/images/white-wavesbg.png");
+        background-repeat: cover;
+    }
+    .header-text {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 90px;
+        padding-bottom: 300px;
+        text-align: center;
+    }
+    h1 {
+        font-size: 7em !important;
+        font-family: "Bungee Inline", cursive, sans-serif;
+        color: #001a33;
+
+    }
+    .music-heading {
+        color: #001a33;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: "Bungee", sans-serif;
+        font-size: 3em;
+        margin-left: 150px;
+    }
+    .music-lead {
+        display: block;
+        font-family: "Exo", sans-serif;
+        font-weight: 500;
+        font-size: 1em;
+        margin-left: 25px;
+        padding-left: 35px;
+        text-align: center;
+    }
+    .album-img {
+    padding: auto !important;
+    width: 160px;
+    height: 150px;
+    vertical-align: center;
+
+}
+
+    .tours-heading {
+        color: #001a33;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-family: "Bungee", sans-serif;
+        font-size: 3em;
+        padding-left: 50px;
+
+    }
+
+}
