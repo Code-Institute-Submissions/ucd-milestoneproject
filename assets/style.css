@@ -132,14 +132,56 @@ h1 {
 }
 
 
-/*----------------------------------MUSIC */
+/*----------------------------------LISTEN */
 
 
-.music-video {
-    margin-left: 0 auto;
-    margin-right: 0 auto;
-    padding-top: 300px;
-    padding-bottom: 300px;
-    display: block;
+.music-featurette{
+    
 }
 
+.embed-responsive {
+    padding-bottom: 80px;
+ 
+}
+
+.music-features {
+    width: 100vh;
+    padding-left: 50px;
+    position: absolute;
+    
+    
+}
+
+.tours-heading {
+    
+}
+
+.music-featurette {
+    
+}
+
+.music-featurette-heading {
+    font-family: "Monoton", sans-serif;
+    margin-left: 25px;
+    padding-left: 25px;
+}
+
+.album-lead {
+    
+}
+
+.music-divider {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.featurette-divider {
+    margin: 5rem 0;
+}
+    
+    
+    
+    
+    
