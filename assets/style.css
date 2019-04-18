@@ -45,6 +45,7 @@ h1 {
 
 .social-list li {
     display: inline;
+    position: center;
     padding: 10px;
     font-size: 1.5em;
 
@@ -161,7 +162,6 @@ h1 {
 
 .music-featurette-heading {
     font-family: "Roboto Condensed", sans-serif;
-    font-style: bold;
     font-size: 18px;
     margin-left: 25px;
     text-align: center;
@@ -189,7 +189,7 @@ h1 {
     padding: auto;
     width: 160px;
     height: 150px;
-    vertical-align: center;
+    vertical-align: middle;
 
 }
 
@@ -215,10 +215,6 @@ h1 {
 .music-featurette {}
 
 
-
-
-.album-lead {}
-
 .music-divider {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -231,57 +227,57 @@ h1 {
     width: 100%;
 }
 
-
-
 /*----------------------------------AUDIO */
 
 .audio-links {
     margin: 0 auto;
     position: relative;
-    background: #BFE5B9;
+    background: #D4F4C1;
     padding: 25px 25px 25px 25px;
-    margin: 0 auto;
     width: 100vw;
 }
+
 
 
 /*----------------------------------GALLERY */
 
 .bandGallery {
+
     color: #001a33;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    text-align: center;
     font-family: "Bungee", sans-serif;
     font-size: 3em;
-    padding-left: 50px;
+    
 
 }
 
-.gallery-heading {}
+#carouselExampleIndicators {
+    
+ 
+}
+
+.bandGallery {
+    color: #001a33;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    font-size: 3em;
+    padding-bottom: 25px;
+
+}
 
 
 .carousel {
     margin-bottom: 4rem;
 }
 
-.carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
+
+.carousel-control-prev {
+    padding-left: 40px;
 }
 
 
-.carousel-item {
-    height: 30rem;
-}
 
-.carousel-item>img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 30rem;
-}
-
-/*----------------------------------GALLERY */
+/*----------------------------------STYLING FOR TABLET*/
 
 @media (min-width: 768px) {
     .body {
@@ -292,10 +288,11 @@ h1 {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 300px;
-        padding-bottom: 300px;
+        padding-top: 50%;
+        padding-bottom: 50%;
         text-align: center;
     }
+
     h1 {
         font-size: 7em !important;
         font-family: "Bungee Inline", cursive, sans-serif;
@@ -342,19 +339,31 @@ h1 {
         padding: auto !important;
         width: 160px;
         height: 150px;
-        vertical-align: center;
+        vertical-align: middle;
         padding-bottom: 40px;
+    }
+
+    .audio-links {
+        margin: 0 auto;
+        background: #D4F4C1;
+        width: 100%;
+    }
+
+    .audioSpotify {
+        padding-left: 20%;
+    }
+
+
+    .bandGallery {
+        color: #001a33;
+        text-align: center;
+        font-family: "Bungee", sans-serif;
+        font-size: 3em;
 
     }
-    
-    .audio-links {
-    margin: 0 auto;
+}
 
-    background: #BFE5B9;
-    padding: 25px 25px 25px 25px;
-    width: 100%;
-}
-}
+/*----------------------------------STYLING FOR DESKTOP*/
 
 @media (min-width: 992px) {
     .body {
@@ -365,7 +374,7 @@ h1 {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 90px;
+        padding-top: 300px;
         padding-bottom: 300px;
         text-align: center;
     }
@@ -375,6 +384,14 @@ h1 {
         color: #001a33;
 
     }
+
+    .tour-updates {
+        background-color: #cce6ff;
+        margin: 0 auto;
+        position: relative;
+        width: 100vw;
+    }
+
     .music-heading {
         color: #001a33;
         margin-bottom: 50px;
@@ -397,19 +414,18 @@ h1 {
         text-align: center;
     }
     .album-img {
-        padding: auto !important;
-        width: 160px;
-        height: 150px;
-        vertical-align: center;
+        padding: auto;
+        width: 180px;
+        height: 170px;
+        vertical-align: middle;
 
     }
 
     .audio-links {
         margin: 0 auto;
         position: relative;
-        background: #BFE5B9;
+        background: #D4F4C1;
         padding: 25px 25px 25px 25px;
-        margin: 0 auto;
         width: 100vw;
     }
 
@@ -420,6 +436,19 @@ h1 {
         font-family: "Bungee", sans-serif;
         font-size: 3em;
         padding-left: 50px;
+
+    }
+
+    #carouselExampleIndicators {
+        width: 80%;
+        padding-left: 25%;
+    }
+
+    .bandGallery {
+        color: #001a33;
+        text-align: center;
+        font-family: "Bungee", sans-serif;
+        font-size: 3em;
 
     }
 
