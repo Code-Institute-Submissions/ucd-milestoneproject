@@ -345,7 +345,7 @@ h1 {
 
     .audio-links {
         margin: 0 auto;
-        background: #D4F4C1;
+        background: #D7EDCB;
         width: 100%;
     }
 
@@ -359,6 +359,7 @@ h1 {
         text-align: center;
         font-family: "Bungee", sans-serif;
         font-size: 3em;
+        padding-bottom: 40px;
 
     }
 }
@@ -449,6 +450,7 @@ h1 {
         text-align: center;
         font-family: "Bungee", sans-serif;
         font-size: 3em;
+        padding-bottom: 40px;
 
     }
 
