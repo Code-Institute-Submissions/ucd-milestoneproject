@@ -171,7 +171,7 @@ h1 {
 
 .music-lead {
     display: block;
-    font-family: "Exo", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-weight: 500;
     font-size: 1em;
     margin-left: 25px;
@@ -205,11 +205,11 @@ h1 {
 
 
 }
-
+/*
 .music {
     padding: 50px, 25px, 50px, 25px;
 }
-
+*/
 
 
 .music-featurette {}
@@ -310,6 +310,10 @@ h1 {
 
 /*----------------------------------CONTACT */
 
+#ContactBand {
+    background-color: #DED8E7;
+}
+
 .bandContact {
     color: #001a33;
     margin-bottom: 50px;
@@ -325,21 +329,27 @@ h1 {
     font-weight: 300px;
     margin-top: 25px;
     margin-bottom: 20px;
-    
+
+}
+
+.text-center {
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 .center-form {
     padding-top: 10px;
     margin: 0px auto;
     max-width: 70%;
-    
+    font-family: "Roboto Condensed", sans-serif;
+
 }
 
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #e84610;
+    background-color: #001a33;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 /*----------------------------------STYLING FOR TABLET*/
