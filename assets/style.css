@@ -7,6 +7,25 @@ body {
 
 /* -----------------------------------NAV BAR*/
 
+
+#navBarAll{
+       background-color: rgba(131, 137, 127, 0.15);
+    
+}
+
+
+.navbar-brand {
+    font-family: "Bungee Inline", sans-serif;
+    color:  #001a33;
+}
+
+.navbar-collapse {
+    font-family: "Bungee", sans-serif;
+    color:  #001a33;;
+}
+
+
+
 /*----------------------------------HEADER */
 
 .header-text {
@@ -232,7 +251,7 @@ h1 {
     margin: 0 auto;
     position: relative;
     background: #D4F4C1;
-    padding: 25px 25px 25px 25px;
+    padding: 35px 25px 25px 25px;
     width: 100vw;
 }
 
@@ -479,8 +498,8 @@ button[type="submit"] {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 300px;
-        padding-bottom: 300px;
+        padding-top: 10em;
+        padding-bottom: 10px;
         text-align: center;
     }
     h1 {
