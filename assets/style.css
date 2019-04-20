@@ -7,24 +7,30 @@ body {
 
 /* -----------------------------------NAV BAR*/
 
+#navBarAll {
+    background-color: rgba(131, 137, 127, 0.15);
 
-#navBarAll{
-       background-color: rgba(131, 137, 127, 0.15);
-    
 }
 
+.navbar-nav {
+    float: left;
+}
 
 .navbar-brand {
     font-family: "Bungee Inline", sans-serif;
-    color:  #001a33;
+    color: #001a33;
 }
 
 .navbar-collapse {
     font-family: "Bungee", sans-serif;
-    color:  #001a33;;
+    color: #001a33;
+    ;
 }
 
+.nav-item {
+    color: #001a33;
 
+}
 
 /*----------------------------------HEADER */
 
@@ -35,6 +41,7 @@ body {
     padding-top: 60%;
     padding-bottom: 50%;
     text-align: center;
+
 }
 
 h1 {
@@ -265,7 +272,7 @@ h1 {
 
 .musicsocial-list li {
     display: inline;
-   
+
     padding: 10px;
     font-size: 2em;
 
