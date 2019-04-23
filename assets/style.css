@@ -81,6 +81,10 @@ h1 {
 
 .social-list li a:hover {
     color: #b3daff;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 
@@ -402,6 +406,64 @@ button[type="submit"] {
     font-family: "Roboto Condensed", sans-serif;
 }
 
+/*----------------------------------FOOTER*/
+
+footer {
+    background-color: #001a33;
+    color: #fafafa;
+
+}
+
+.footer-details {
+ 
+    padding: 20px;
+
+}
+
+
+/*--
+.social-links {
+    color: #001a33;
+    list-style: none;
+}
+
+.social-links li {
+    display: inline;
+    position: center;
+    padding: 10px;
+}
+
+.social-links li a {
+    color: #000;
+}
+
+.social-links li a:hover {
+    color: #b3daff;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+*/
+
+
 /*----------------------------------STYLING FOR TABLET*/
 
 @media (min-width: 768px) {
@@ -505,8 +567,8 @@ button[type="submit"] {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 10em;
-        padding-bottom: 10px;
+        padding-top: 15em;
+        padding-bottom: 15em;
         text-align: center;
     }
     h1 {
