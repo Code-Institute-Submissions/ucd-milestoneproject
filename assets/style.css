@@ -283,12 +283,21 @@ h1 {
 
 /*----------------------------------AUDIO */
 
+.SpotifyContainer {
+    text-align: center;
+    display: inline-block;
+    padding-right: 1em;
+    padding-left: 1em;
+    
+}
+
 .audio-links {
     margin: 0 auto;
     position: relative;
     background-color: #D7EDCB;
     text-align: center;
     padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .musicsocial-list {
