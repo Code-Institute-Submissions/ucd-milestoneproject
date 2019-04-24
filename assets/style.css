@@ -5,6 +5,11 @@ body {
     background-repeat: cover center;
 }
 
+section {
+    height: 100%;
+}
+
+
 /* -----------------------------------NAV BAR*/
 
 #navBarAll {
@@ -29,8 +34,24 @@ body {
 
 .nav-item {
     color: #001a33;
-
 }
+
+.navbar-brand:hover {
+    color: #4C708C;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.navbar-nav a:hover {
+    color: #4C708C;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
 
 /*----------------------------------HEADER */
 
@@ -65,7 +86,7 @@ h1 {
 .social-list {
     color: #001a33;
     list-style: none;
-     transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
@@ -213,9 +234,8 @@ h1 {
 }
 
 .embed-responsive-item {
-    margin-left: 1.5em;
-    padding-bottom: 30px;
-
+    text-align: center;
+    margin: auto;
 }
 
 .album-img {
@@ -228,6 +248,7 @@ h1 {
 
 .music-featurette {
     width: 100%;
+    padding-bottom: 3em;
 }
 
 
@@ -265,9 +286,9 @@ h1 {
 .audio-links {
     margin: 0 auto;
     position: relative;
-    background: #D4F4C1;
-    width: 100vw;
-    padding: 2em 1em 2em 1em;
+    background-color: #D7EDCB;
+    text-align: center;
+    padding-top: 2em;
 }
 
 .musicsocial-list {
@@ -416,9 +437,7 @@ footer {
 .social-links {
     color: #001a33;
     list-style: none;
-    padding: 2em 2em 1em 2em;
-    display: inline;
-    position: center;
+
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -428,7 +447,9 @@ footer {
 
 .social-links li a {
     color: #fff;
-    padding-top: 2em;
+    padding: .5em;
+    display: inline;
+    text-align: center;
 }
 
 .social-links li a:hover {
@@ -551,6 +572,12 @@ footer {
         text-align: center;
 
     }
+    
+    .social-links {
+        padding-top: 1em;
+    }
+    
+    /*
     .album-img {
         padding: auto;
         width: 160px;
@@ -559,12 +586,7 @@ footer {
         padding-bottom: 40px;
     }
 
-    .audio-links {
-        margin: 0 auto;
-        background: #D7EDCB;
-        width: 100%;
-        padding: 2em 1em 2em 1em;
-    }
+
 
     .audioSpotify {
         padding-left: 20%;
@@ -612,7 +634,7 @@ footer {
             background-color: #cce6ff;
             margin: 0 auto;
             position: relative;
-            width: 100vw;
+
         }
 
         .music-heading {
@@ -647,9 +669,8 @@ footer {
         .audio-links {
             margin: 0 auto;
             position: relative;
-            background: #D4F4C1;
             padding: 2em 1em 2em 1em;
-            width: 100vw;
+
         }
 
         .tours-heading {
@@ -682,6 +703,7 @@ footer {
 
         .social-links li {
             display: inline-block;
+            text-align: center;
         }
 
 
