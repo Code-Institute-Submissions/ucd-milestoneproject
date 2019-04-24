@@ -427,27 +427,32 @@ footer {
     padding-bottom: 1em;
 }
 
+.footerLinks {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
 .socialfooter-heading {
-    padding: 2em 2em 1em 2em;
-    float: left;
+    padding: 1em 2em 0em 2em;
     font-family: "Bungee", sans-serif;
     color: #fafafa;
+    text-align: center;
 }
 
 .social-links {
     color: #001a33;
     list-style: none;
+    display: inline;
+    position: center;
+    padding-top: 1em;
+    font-size: 1.5em;
 
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
 }
 
 
 .social-links li a {
     color: #fff;
-    padding: .5em;
+
     display: inline;
     text-align: center;
 }
@@ -572,11 +577,11 @@ footer {
         text-align: center;
 
     }
-    
+
     .social-links {
         padding-top: 1em;
     }
-    
+
     /*
     .album-img {
         padding: auto;
