@@ -1,6 +1,10 @@
-Your Project's Name
+Bombay Bicycle Club's Website
 
 One or two paragraphs providing an overview of your project.
+
+This objective of this project is to create a front-only webpage for a band, namely Bombay Bicycle Club. The client's target audience are their long-standing fans and potential fans that may visit the site. 
+
+This is a single-scrollling page with sections that draw attention to the client's upcoming performances, 
 
 Essentially, this part is your sales pitch.
  -----------------------
