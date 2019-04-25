@@ -1,12 +1,15 @@
 Bombay Bicycle Club's Website
 
-One or two paragraphs providing an overview of your project.
 
 This objective of this project is to create a front-only webpage for a band, namely Bombay Bicycle Club. The client's target audience are their long-standing fans and potential fans that may visit the site. 
 
-This is a single-scrollling page with sections that draw attention to the client's upcoming performances, 
+This is a single-scrollling page with sections that draw attention to the client's upcoming performances, a selection of the clients back catalog, photographs of the band and their album artwork and a form where fans can contact the band if they want them to perform at their event. 
+The Header section of the page idenifies the band and includes links to important social media pages of the band. The Tours section of the page lists the upcoming gigs and festivals that the client is performing at. The Listen section of the page includes embedded videos from YouTube and audio links from Spotify which a fan or new visitor can use to listen to the bands music. The Gallery section is a neat carousel which contains pictures and artwork. The Contact section contains a form that the user can submit a request to the client. 
 
-Essentially, this part is your sales pitch.
+The navigation of the page can be made through the fixed navigation bar that sits on the bottom of the Header section and on the top of every other section. This leaves a bigger impact on the Header page and makes for easy navigation throughout the pages. 
+
+The Footer contains information on the band members and reiterates the band's presence on social media. 
+
  -----------------------
  
 UX
@@ -21,6 +24,10 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+
+My project is broken up into 5 distinct page areas - Header, Tours, Listen and Contact. 
+
+The Header is laid out in an eye-catching yet simple way, including the band name and their social media links. In my research I found that many bands targetting a younger audience maintained a very straightforward opening page with their social media links. 
 
 ------------------------
 Existing Features
