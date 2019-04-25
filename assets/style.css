@@ -7,6 +7,7 @@ body {
 
 section {
     height: 100%;
+
 }
 
 
@@ -288,7 +289,7 @@ h1 {
     display: inline-block;
     padding-right: 1em;
     padding-left: 1em;
-    
+
 }
 
 .audio-links {
@@ -300,6 +301,7 @@ h1 {
     padding-bottom: 2em;
 }
 
+/*
 .musicsocial-list {
     color: #001a33;
     list-style: none;
@@ -307,6 +309,7 @@ h1 {
     padding-top: 2em;
     margin-right: 3em;
 }
+*
 
 .musicsocial-list li {
     display: inline;
@@ -413,7 +416,10 @@ button[type="submit"] {
     color: #fafafa;
     background-color: #001a33;
     font-family: "Roboto Condensed", sans-serif;
+    transition: #4C708C .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+
+
 
 /*----------------------------------FOOTER*/
 
@@ -436,35 +442,30 @@ footer {
     padding-bottom: 1em;
 }
 
-.footerLinks {
+.footer-details {
     text-align: center;
     padding-bottom: 1em;
 }
 
 .socialfooter-heading {
-    padding: 1em 2em 0em 2em;
+    padding: 2em 2em 0em 2em;
     font-family: "Bungee", sans-serif;
     color: #fafafa;
     text-align: center;
 }
 
 .social-links {
-    color: #001a33;
     list-style: none;
-    display: inline;
-    position: center;
-    padding-top: 1em;
-    font-size: 1.5em;
-
+    text-align: center;
 }
-
 
 .social-links li a {
     color: #fff;
-
-    display: inline;
-    text-align: center;
+    display: inline-block;
+    font-size: 1.5em;
+    margin-right: 1.5em;
 }
+
 
 .social-links li a:hover {
     color: #627A8E;
@@ -587,9 +588,35 @@ footer {
 
     }
 
-    .social-links {
-        padding-top: 1em;
+    .carousel-inner {
+        position: relative;
+        width: 450px;
+        height: 100%;
+        margin: auto;
     }
+
+    .carousel {
+        position: relative;
+        margin: auto;
+        margin-bottom: 10em;
+        width: 500px;
+    }
+
+
+    .social-links {
+        list-style: none;
+        text-align: center;
+    }
+
+    .social-links li {
+        display: inline-block;
+
+        font-size: 1em;
+        list-style: none;
+
+    }
+
+
 
     /*
     .album-img {
@@ -628,7 +655,7 @@ footer {
             margin-left: auto;
             margin-right: auto;
             padding-top: 15em;
-            padding-bottom: 11em;
+            padding-bottom: 12.5em;
             text-align: center;
         }
         h1 {
@@ -661,6 +688,7 @@ footer {
         }
 
         .music-featurette-heading {
+            padding-top: 1em;
             font-family: "Roboto Condensed", sans-serif;
             margin-left: 25px;
             text-align: center;
@@ -715,9 +743,20 @@ footer {
             padding-bottom: 18.2em;
         }
 
-        .social-links li {
-            display: inline-block;
+        .social-links {
+            list-style: none;
             text-align: center;
+        }
+
+        .social-links li {
+            display: inline;
+            font-size: 1em;
+
+        }
+
+        .socialfooter-heading {
+            padding: 1em 1em 0em 0em;
+
         }
 
 
@@ -754,3 +793,4 @@ footer {
             width: 100%;
             overflow: hidden;
             margin: auto;
+        }
