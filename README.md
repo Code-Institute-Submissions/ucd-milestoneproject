@@ -13,7 +13,21 @@ The Footer contains information on the band members and reiterates the band's pr
  -----------------------
  
 UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+The main goal of this project was to build a website for a band. Regardless of which band I chose, I knew that there are certain features that every band website would want to have. For example, a band will always want to advertise their backcatalog and their upcoming performances. The user will expect to find music and tour dates on a band's website. 
+
+The brief for this project suggested a band which was very popular in the 1960's. Had I chose to progress with this band, the demographic targetted would have been in the 50 year old + bracket. In this case I would have made the website as simple as possible, as an older generation may not be as familiar with navigation through websites. However, I chose a more modern band than the band suggested in the brief. This meant that the demographic targetted with this website are in a younger age bracket, approximately 20-30 year olds, male or female. Regardless the design is a simple, single-scrolling layout with a navigation bar so a user can quickly get to the page area they wish to visit. 
+
+When a person visits a band website, they are usually looking for particular things - tour dates and music. 
+
+As a user interested in finding out when I can see a band, I go to their website so I can find out if they are playing near me, or in a place I'd like to visit. As a user I want this information to be easily found and accessible. A person's initial response to seeing a large header is to scroll down. I placed the Tours section of my band website directly under the opening page area. This reminds the user that the band is touring, and shows them if they will be close to their area soon. As they scroll further, they come across some of the bands best-known songs, another reminder of why they need to buy their concert ticket.
+
+As a user interested in hearing some music of the band, I want their website to showcase their music and then but I also want to be shown where I can hear more. When the user arrives on the opening page area, they are greeted with a row of social media links, including links to music and video sites such as Spotify and YouTube. Clicking on Spotify, for example, will show the user not just a selection of the band's music but all their albums, singles and playlists. They can then follow the band on these platforms, where they will have their whole repertoire at their fingertips. However if they scroll past those initial links, they are met with a selection of music videos and audio clips, taken from YouTube and Spotify, again reminding the user that they can follow the band on these platforms. There are also more links repeated in the footer of the website. 
+
+As a user who may want the band to perform at an event, I want to be able to contact the band or their managers. On this website the user can scroll down to or click Contact to be brought to a form which they can fill out. If the user scrolls down, they will be met with the dates that the band will be unavailable and gigs that the user can attend themselves if they wish to see the band live before their event. They also get samples of their music and pictures of the band so they can see if they are a good fit for their event. 
+
+Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve
+and how your project is the best way to help them achieve these things.
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
