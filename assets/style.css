@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Monoton;100,200,300,400,500,600,700|Prata: 100,200,300,400,500,600,700|Bungee+Inline:100,200,300,400,500,600,700|Roboto: 100,200,300,400,500,600,700|Bungee: 100,200,300,400,500,600,700|Roboto+Condensed|Prata');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline:100,200,300,400,500,600,700|Roboto: 100,200,300,400,500,600,700|Bungee: 100,200,300,400,500,600,700|Roboto+Condensed');
 
 body {
     background-image: url("/assets/images/white-wavesbg.png");
@@ -6,12 +6,17 @@ body {
 }
 
 
+/*
+.scrolling-sections {
+    z-index: 2;
+    position: relative;
+}
+*/
 
-/* -----------------------------------NAV BAR*/
+/* --------------------------------------------------------------------NAV BAR*/
 
 #navBarAll {
     background-color: rgba(131, 137, 127, 0.15);
-
 }
 
 .navbar-brand {
@@ -45,22 +50,51 @@ body {
     -o-transition: all 0.35s ease-in-out;
 }
 
-
-
-/*----------------------------------HEADER */
+/*---------------------------------------------------------------------HEADER */
 
 .HeaderSection {
     height: 100vh;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
 }
 
 
+/*
+.headerScroll {
+    width: 100px;
+    text-align: center;
+    color: #000;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 10px;
+    text-transform: uppercase;
+    opacity: .5;
+    font-family: "Bungee", sans-serif;
+    font-size: 1em;
+    letter-spacing: .05rem;
+    text-indent: .05rem
+}
+
+.headerScroll:after {
+    content: ' ';
+    display: block;
+    -webkit-transform: translateX(49px) translateY(10px);
+    -ms-transform: translateX(49px) translateY(10px);
+    transform: translateX(49px) translateY(10px);
+    width: 2px;
+    height: 38px;
+    background-color: #fff
+}
+*/
+
 h1 {
-padding-top: 3em;
+    padding-top: 3em;
     font-size: 3em;
     font-family: "Bungee Inline", cursive, sans-serif;
     color: #001a33;
-    
-
 }
 
 .newalbum-info {
@@ -85,7 +119,6 @@ padding-top: 3em;
     position: center;
     padding: 10px;
     font-size: 1.5em;
-
 }
 
 .social-list li a {
@@ -103,16 +136,15 @@ padding-top: 3em;
 .social-list ul {
     margin-right: 18px;
     height: 30vh;
-  
 }
 
-/*----------------------------------TOURS */
+
+/*----------------------------------------------------------------------TOURS */
 
 .tour-updates {
     width: 100%;
     background-color: #cce6ff;
 }
-
 
 .tours-heading {
     color: #001a33;
@@ -121,7 +153,6 @@ padding-top: 3em;
     font-family: "Bungee", sans-serif;
     font-size: 3em;
     text-align: center;
-
 }
 
 .timeline-item {
@@ -130,7 +161,6 @@ padding-top: 3em;
     position: relative;
     color: #001a33;
     border-left: 1px solid;
-
 }
 
 .timeline-item p {
@@ -161,7 +191,6 @@ padding-top: 3em;
     border-radius: 12px;
     content: '';
     background: #fafafa;
-
 }
 
 .tour-items {
@@ -170,7 +199,6 @@ padding-top: 3em;
 
 .tourImages {
     padding-top: 80px;
-
 }
 
 .tour-image {
@@ -184,14 +212,11 @@ padding-top: 3em;
     width: 300px;
 }
 
-
-/*----------------------------------LISTEN */
+/*---------------------------------------------------------------------LISTEN */
 
 .music-features {
     width: 100%
 }
-
-
 
 .music-heading {
     color: #001a33;
@@ -200,8 +225,6 @@ padding-top: 3em;
     font-family: "Bungee", sans-serif;
     font-size: 3em;
     text-align: center;
-
-
 }
 
 /*----SONG NAME*/
@@ -223,20 +246,11 @@ padding-top: 3em;
     font-size: 1em !important;
     margin-left: 25px;
     text-align: center;
-
 }
 
 .embed-responsive-item {
     text-align: center;
-    margin: auto;
-}
-
-.album-img {
-    padding: auto;
-    width: 160px;
-    height: 150px;
-    vertical-align: middle;
-
+    width: 100vw;
 }
 
 .music-featurette {
@@ -244,23 +258,11 @@ padding-top: 3em;
     padding-bottom: 3em;
 }
 
-
 .music-features {
     width: 100vh;
     padding-left: 50px;
     position: absolute;
-
-
 }
-
-/*
-.music {
-    padding: 50px, 25px, 50px, 25px;
-}
-*/
-
-.music-featurette {}
-
 
 .music-divider {
     margin-top: 3rem;
@@ -271,17 +273,15 @@ padding-top: 3em;
 
 .featurette-divider {
     margin: 5rem 0;
-
 }
 
-/*----------------------------------AUDIO */
+/*----------------------------------------------------------------------AUDIO */
 
 .SpotifyContainer {
     text-align: center;
     display: inline-block;
     padding-right: 1em;
     padding-left: 1em;
-
 }
 
 .audio-links {
@@ -320,8 +320,7 @@ padding-top: 3em;
 }
 
 
-
-/*----------------------------------GALLERY */
+/*--------------------------------------------------------------------GALLERY */
 
 .bandGallery {
     color: #001a33;
@@ -330,7 +329,6 @@ padding-top: 3em;
     font-family: "Bungee", sans-serif;
     font-size: 3em;
     text-align: center;
-
 }
 
 .carousel-inner {
@@ -350,7 +348,6 @@ padding-top: 3em;
     z-index: 10;
 }
 
-
 .carousel-item {
     height: 20rem;
 }
@@ -363,9 +360,7 @@ padding-top: 3em;
     height: 20rem;
 }
 
-
-
-/*----------------------------------CONTACT */
+/*--------------------------------------------------------------------CONTACT */
 
 #ContactBand {
     background-color: #DED8E7;
@@ -379,7 +374,6 @@ padding-top: 3em;
     font-family: "Bungee", sans-serif;
     font-size: 3em;
     text-align: center;
-
 }
 
 .contact-heading {
@@ -387,7 +381,6 @@ padding-top: 3em;
     font-weight: 500;
     margin-top: 25px;
     margin-bottom: 20px;
-
 }
 
 .contact-band {
@@ -399,7 +392,6 @@ padding-top: 3em;
     margin: 0px auto;
     max-width: 70%;
     font-family: "Roboto Condensed", sans-serif;
-
 }
 
 button[type="submit"] {
@@ -411,14 +403,11 @@ button[type="submit"] {
     transition: #4C708C .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
-
-
-/*----------------------------------FOOTER*/
+/*----------------------------------------------------------------------FOOTER*/
 
 footer {
     background-color: #001a33;
     color: #fafafa;
-
 }
 
 .footer-heading {
@@ -470,57 +459,10 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-
-/*
-
-
-
-
-
-
-.social-links li a i {
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-
-.social-links li a i:hover {}
-
-
-/*--
-
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #e84610;
-}
-
-*/
-
-/*----------------------------------STYLING FOR TABLET*/
+/*----------------------------------------------------------STYLING FOR TABLET*/
 
 @media (min-width: 768px) {
-    .body {
-        background-image: url("/assets/images/white-wavesbg.png");
-        background-repeat: cover;
-    }
+
     .header-text {
         width: 100%;
         margin-left: auto;
@@ -529,25 +471,26 @@ footer {
 
     h1 {
         font-size: 7em !important;
-        font-family: "Bungee Inline", cursive, sans-serif !important;
-        color: #001a33;
-
+        padding-top: 2.3em;
     }
-    
+
+    .social-list ul {
+        margin-right: 18px;
+        height: 20vh;
+    }
+
     .navbar {
         font-size: 1.5em;
-        
     }
-    
+
     .navbar a {
         float: left;
     }
-    
-    .navbar-toggler{
+
+    .navbar-toggler {
         color: #fff;
     }
-    
-    
+
     .music-heading {
         color: #001a33;
         margin-bottom: 50px;
@@ -555,8 +498,6 @@ footer {
         font-family: "Bungee", sans-serif;
         font-size: 3em;
         text-align: center;
-
-
     }
 
     .tours-heading {
@@ -566,20 +507,14 @@ footer {
         font-family: "Bungee", sans-serif;
         font-size: 3em;
         padding-left: 50px;
-
     }
-
-
 
     .music-featurette {
         vertical-align: middle;
         font-family: "Roboto Condensed", sans-serif;
         margin-left: 25px;
         text-align: center;
-
-
     }
-
 
     .music-lead {
         display: block;
@@ -589,7 +524,6 @@ footer {
         margin-left: 25px;
         padding-left: 35px;
         text-align: center;
-
     }
 
     .carousel-inner {
@@ -614,54 +548,24 @@ footer {
 
     .social-links li {
         display: inline-block;
-
         font-size: 1em;
         list-style: none;
-
     }
 
-
-
-    /*
-    .album-img {
-        padding: auto;
-        width: 160px;
-        height: 150px;
-        vertical-align: middle;
-        padding-bottom: 40px;
-    }
-
-
-
-    .audioSpotify {
-        padding-left: 20%;
-    }
-
-    .carousel {
-        position: relative;
-        margin: auto;
-        margin-bottom: 4rem;
-        width: 30em;
-    }
-
-    .social-links li {
-        display: inline-block;
-    }
-
-    /*----------------------------------STYLING FOR DESKTOP*/
+    /*-----------------------------------------------------STYLING FOR DESKTOP*/
     @media (min-width: 992px) {
 
         .header-text {
             width: 100%;
             margin-left: auto;
             margin-right: auto;
-            padding-bottom: 12em;
+            padding-bottom: 2em;
             text-align: center;
         }
-        
-       h1 {
-           padding-top: 2em;
-       }
+
+        h1 {
+            padding-top: 1em;
+        }
 
 
         #main-title {
@@ -670,11 +574,14 @@ footer {
             color: #001a33;
         }
 
+        .nav-item {
+            font-size: .8em;
+        }
+
         .tour-updates {
             background-color: #cce6ff;
             margin: 0 auto;
             position: relative;
-
         }
 
         .music-heading {
@@ -699,19 +606,11 @@ footer {
             font-size: 1em;
             text-align: center;
         }
-        .album-img {
-            padding: auto;
-            width: 180px;
-            height: 170px;
-            vertical-align: middle;
-
-        }
 
         .audio-links {
             margin: 0 auto;
             position: relative;
             padding: 2em 1em 2em 1em;
-
         }
 
         .tours-heading {
@@ -721,7 +620,6 @@ footer {
             font-family: "Bungee", sans-serif;
             font-size: 3em;
             padding-left: 50px;
-
         }
 
         .carousel-inner {
@@ -750,19 +648,16 @@ footer {
         .social-links li {
             display: inline;
             font-size: 1em;
-
         }
 
         .socialfooter-heading {
             padding: 1em 1em 0em 0em;
-
         }
 
 
-
-
+        /*----------------------------------MEDIA QUERIES FOR CAROUSEL FROM BOOTSTRAP LIBRARY */
         @media (min-width: 40em) {
-            /* Bump up size of carousel content */
+
             .carousel-caption p {
                 margin-bottom: 1.25rem;
                 font-size: 1.25rem;
@@ -778,18 +673,18 @@ footer {
             .featurette-heading {
                 margin-top: 7rem;
             }
-        }
 
 
-        .carousel-inner {
-            width: 50%;
-            height: 100%;
-            text-align: center;
-        }
+            .carousel-inner {
+                width: 50%;
+                height: 100%;
+                text-align: center;
+            }
 
-        .carousel-inner {
-            position: relative;
-            width: 100%;
-            overflow: hidden;
-            margin: auto;
+            .carousel-inner {
+                position: relative;
+                width: 100%;
+                overflow: hidden;
+                margin: auto;
+            }
         }
