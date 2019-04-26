@@ -5,10 +5,6 @@ body {
     background-repeat: cover center;
 }
 
-section {
-    height: 100%;
-
-}
 
 
 /* -----------------------------------NAV BAR*/
@@ -16,10 +12,6 @@ section {
 #navBarAll {
     background-color: rgba(131, 137, 127, 0.15);
 
-}
-
-.navbar-nav {
-    float: left;
 }
 
 .navbar-brand {
@@ -54,24 +46,20 @@ section {
 }
 
 
+
 /*----------------------------------HEADER */
 
-.header-text {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 60%;
-    padding-bottom: 50%;
-    text-align: center;
-
+.HeaderSection {
+    height: 100vh;
 }
 
+
 h1 {
-    font-size: 3em !important;
+padding-top: 3em;
+    font-size: 3em;
     font-family: "Bungee Inline", cursive, sans-serif;
     color: #001a33;
-    text-align: center;
-    padding-bottom: 10%;
+    
 
 }
 
@@ -80,9 +68,8 @@ h1 {
     font-family: "Bungee Inline", sans-serif;
     font-weight: 100;
     color: #001a33;
+    padding-top: 2%;
 }
-
-
 
 .social-list {
     color: #001a33;
@@ -113,6 +100,11 @@ h1 {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.social-list ul {
+    margin-right: 18px;
+    height: 30vh;
+  
+}
 
 /*----------------------------------TOURS */
 
@@ -533,9 +525,6 @@ footer {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 35%;
-        padding-bottom: 40%;
-        text-align: center;
     }
 
     h1 {
@@ -544,6 +533,21 @@ footer {
         color: #001a33;
 
     }
+    
+    .navbar {
+        font-size: 1.5em;
+        
+    }
+    
+    .navbar a {
+        float: left;
+    }
+    
+    .navbar-toggler{
+        color: #fff;
+    }
+    
+    
     .music-heading {
         color: #001a33;
         margin-bottom: 50px;
@@ -646,24 +650,20 @@ footer {
 
     /*----------------------------------STYLING FOR DESKTOP*/
     @media (min-width: 992px) {
-        .body {
-            background-image: url("/assets/images/white-wavesbg.png");
-            background-repeat: cover;
-        }
+
         .header-text {
             width: 100%;
             margin-left: auto;
             margin-right: auto;
-            padding-top: 15em;
+            padding-top: 10em;
             padding-bottom: 12.5em;
             text-align: center;
         }
-        h1 {
-            font-size: 7em !important;
-            font-family: "Bungee Inline", cursive, sans-serif;
-            color: #001a33;
-
+        
+        .navbar-nav {
+        
         }
+
 
         #main-title {
             font-size: 7em !important;
