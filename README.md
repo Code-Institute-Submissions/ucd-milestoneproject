@@ -26,23 +26,26 @@ As a user interested in hearing some music of the band, I want their website to 
 
 As a user who may want the band to perform at an event, I want to be able to contact the band or their managers. On this website the user can scroll down to or click Contact to be brought to a form which they can fill out. If the user scrolls down, they will be met with the dates that the band will be unavailable and gigs that the user can attend themselves if they wish to see the band live before their event. They also get samples of their music and pictures of the band so they can see if they are a good fit for their event. 
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve
-and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ------------------------
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 My project is broken up into 5 distinct page areas - Header, Tours, Listen and Contact. 
 
-The Header is laid out in an eye-catching yet simple way, including the band name and their social media links. In my research I found that many bands targetting a younger audience maintained a very straightforward opening page with their social media links. 
+The Header is laid out in an eye-catching yet simple way, including the band name and their social media links. In my research I found that many bands targetting a younger audience maintained a very straightforward opening page with their social media links. I followed this style to create a basic opening page area. On desktop and tablet, the user is informed that a new album will be released soon, however I felt it appeared best to remove this from the mobile display. 
+As the user scrolls down, they are met with the navbar which is fixed on the bottom of the header and on the top of each other section. This way a user can easily navigate the site if they wish to immediately arrive at a certain point. It will also bring them back up to the top of the website. 
 
+The Tours page area is made up of a timeline list of tour dates for the band, which include the date of the perfomance, the venue and the location. Opposite this timeline there are images of the band performing live, to give the user a taste of what is in store. 
+
+The Listen page area is where the user can listen to a selection of the bands music. There are 3 YouTube videos from 3 different albums so the user can see their music videos and get a taste of each song. Below that there are 4 audio clips from Spotify. These song snippets entice the user to open the bands page on Spotify and will lead the user to following the band. 
+
+The Gallery page area contains examples of album artwork and photographs of the band. 
+
+The Contact page is a straightforward contact form where the user is encouraged to get in touch if they want the band to perfrom at their event. 
+
+There is also a footer which contains a brief overview of the band and the links to the client's social media are repeated. 
 ------------------------
 Existing Features
 Feature 1 - allows users X to achieve Y, by having them fill out Z
@@ -51,6 +54,10 @@ For some/all of your features, you may choose to reference the specific project 
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
+a merchandise store
+a sign up for email updates option
+news section
+
 Features Left to Implement
 Another feature idea
 Technologies Used
@@ -58,9 +65,12 @@ In this section, you should mention all of the languages, frameworks, libraries,
 For each, provide its name, a link to its official site and a short sentence of why it was used.
 -----------------------
 JQuery
+
 The project uses JQuery to simplify DOM manipulation.
+
 ----------------------
 Testing
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
 Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, 
 with the project providing an easy and straightforward way for the users to achieve their goals.
@@ -103,4 +113,4 @@ Media
 The photos used in this site were obtained from ...
 
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from the website of Father John Misty and Vampire Weekend. 
