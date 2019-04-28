@@ -13,7 +13,6 @@ body {
 }
 */
 
-
 /* --------------------------------------------------------------------NAV BAR*/
 
 #navBarAll {
@@ -254,8 +253,7 @@ h1 {
 }
 
 .embed-responsive-item {
-    text-align: center;
-    width: 100vw;
+    padding-left: 30px;
 }
 
 .music-featurette {
@@ -524,6 +522,10 @@ footer {
         text-align: center;
     }
 
+    .embed-responsive-item {
+      width: 100vw;
+    }
+
     .carousel-inner {
         position: relative;
         width: 450px;
@@ -552,6 +554,7 @@ footer {
 }
 
 /*-----------------------------------------------------STYLING FOR DESKTOP*/
+
 @media (min-width: 992px) {
     .header-text {
         width: 100%;
@@ -560,27 +563,27 @@ footer {
         padding-bottom: 2em;
         text-align: center;
     }
-    
+
     h1 {
-        padding-top: 1em;
+        padding-top: 1.5em;
     }
-    
+
     #main-title {
         font-size: 7em !important;
         font-family: "Bungee Inline", cursive, sans-serif;
         color: #001a33;
     }
-    
+
     .nav-item {
         font-size: .8em;
     }
-    
+
     .tour-updates {
         background-color: #cce6ff;
         margin: 0 auto;
         position: relative;
     }
-    
+
     .music-heading {
         color: #001a33;
         margin-bottom: 50px;
@@ -589,7 +592,7 @@ footer {
         font-size: 3em;
         text-align: center;
     }
-    
+
     .music-featurette-heading {
         padding-top: 1em;
         font-family: "Roboto Condensed", sans-serif;
@@ -603,13 +606,13 @@ footer {
         font-size: 1em;
         text-align: center;
     }
-    
+
     .audio-links {
         margin: 0 auto;
         position: relative;
         padding: 2em 1em 2em 1em;
     }
-    
+
     .tours-heading {
         color: #001a33;
         margin-bottom: 50px;
@@ -618,35 +621,35 @@ footer {
         font-size: 3em;
         padding-left: 50px;
     }
-    
+
     .carousel-inner {
         position: relative;
         width: 450px;
         height: 100%;
         margin: auto;
     }
-    
+
     .carousel {
         position: relative;
         margin: auto;
         margin-bottom: 10em;
         width: 500px;
     }
-    
+
     #ContactBand {
         padding-bottom: 18.2em;
     }
-    
+
     .social-links {
         list-style: none;
         text-align: center;
     }
-    
+
     .social-links li {
         display: inline;
         font-size: 1em;
     }
-    
+
     .socialfooter-heading {
         padding: 1em 1em 0em 0em;
     }
@@ -654,6 +657,7 @@ footer {
 
 
 /*----------------------------------MEDIA QUERIES FOR CAROUSEL FROM BOOTSTRAP LIBRARY */
+
 @media (min-width: 40em) {
     .carousel-caption p {
         margin-bottom: 1.25rem;
