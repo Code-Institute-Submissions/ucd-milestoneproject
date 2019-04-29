@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline:100,200,300,400,500,600,700|Roboto: 100,200,300,400,500,600,700|Bungee: 100,200,300,400,500,600,700|Roboto+Condensed');
 
 body {
-    background-image: url("/assets/images/white-wavesbg.png");
+    background-image: url("assets/images/white-wavesbg.png");
     background-repeat: cover center;
     background-attachment: scroll;
 }
@@ -62,13 +62,6 @@ body {
 }
 */
 
-.HeaderSection {
-    height: 100vh;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-}
 
 
 /*
@@ -305,33 +298,6 @@ h1 {
     padding-top: 2em;
     padding-bottom: 2em;
 }
-
-/*
-.musicsocial-list {
-    color: #001a33;
-    list-style: none;
-    text-align: center;
-    padding-top: 2em;
-    margin-right: 3em;
-}
-*
-
-.musicsocial-list li {
-    display: inline;
-
-    padding: 10px;
-    font-size: 2em;
-
-}
-
-.musicsocial-list li a {
-    color: #000;
-}
-
-.musicsocial-list li a:hover {
-    color: #AFC1AE;
-}
-
 
 /*--------------------------------------------------------------------GALLERY */
 
