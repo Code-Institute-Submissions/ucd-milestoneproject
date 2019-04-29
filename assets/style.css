@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Inline:100,200,300,400,500,600,700|Roboto: 100,200,300,400,500,600,700|Bungee: 100,200,300,400,500,600,700|Roboto+Condensed');
 
 body {
-    background-image: url("images/white-wavesbg.png");
+    background-image: url("https://ucd-milestoneproject-melbiggs1.c9users.io/assets/images/white-wavesbg.png"); 
     background-repeat: cover center;
     background-attachment: scroll;
 }
