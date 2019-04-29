@@ -437,13 +437,16 @@ footer {
     text-align: center;
 }
 
-.social-links li a {
-    color: #fff;
+.social-links li {
     display: inline-block;
     font-size: 1.5em;
     margin-right: 1.5em;
 }
 
+.social-links a {
+    display: inline-block;
+    color: #fff;
+}
 
 .social-links li a:hover {
     color: #627A8E;
@@ -523,7 +526,7 @@ footer {
     }
 
     .embed-responsive-item {
-      width: 100vw;
+        width: 100vw;
     }
 
     .carousel-inner {
