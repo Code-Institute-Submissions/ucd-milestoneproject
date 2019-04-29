@@ -70,7 +70,7 @@ Media - The media or 'Listen' section of the website allows the user to see and 
 
 ...
 
-Responsive - This website has been made responsive so it allows the user to access this page through their mobile, tablet or desktop and have a pleasant user experience each time. 
+Responsiveness - This website has been made responsive so it allows the user to access this page through their mobile, tablet or desktop and have a pleasant user experience each time. 
 
 ...
 

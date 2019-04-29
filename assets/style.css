@@ -2,7 +2,7 @@
 
 body {
     background-image: url("https://ucd-milestoneproject-melbiggs1.c9users.io/assets/images/white-wavesbg.png"); 
-    background-repeat: cover center;
+    background-repeat: repeat;
     background-attachment: scroll;
 }
 
@@ -15,44 +15,6 @@ body {
 }
 */
 
-/* --------------------------------------------------------------------NAV BAR*/
-
-#navBarAll {
-    background-color: rgba(131, 137, 127, 0.15);
-}
-
-.navbar-brand {
-    font-family: "Bungee Inline", sans-serif;
-    color: #001a33;
-}
-
-.navbar-collapse {
-    font-family: "Bungee", sans-serif;
-    color: #001a33;
-
-}
-
-.nav-item {
-    color: #001a33;
-}
-
-.navbar-brand:hover {
-    color: #4C708C;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.navbar-nav a:hover {
-    color: #4C708C;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-/*---------------------------------------------------------------------HEADER */
 
 /*
 #top {
@@ -93,6 +55,32 @@ body {
 }
 */
 
+/* --------------------------------------------------------------------NAV BAR*/
+
+#navBarAll {
+    background-color: rgba(131, 137, 127, 0.15);
+}
+
+.navbar-brand {
+    font-family: "Bungee Inline", sans-serif;
+    color: #001a33;
+}
+
+.navbar-collapse {
+    font-family: "Bungee", sans-serif;
+    color: #001a33;
+}
+
+.navbar-nav a:hover {
+    color: #4C708C;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+/*---------------------------------------------------------------------HEADER */
+
 .auto-height {
     height: 100vh;
 }
@@ -123,7 +111,7 @@ h1 {
 
 .social-list li {
     display: inline;
-    position: center;
+    text-align: center;
     padding: 10px;
     font-size: 1.5em;
 }
@@ -149,7 +137,6 @@ h1 {
 /*----------------------------------------------------------------------TOURS */
 
 .tour-updates {
-    width: 100%;
     background-color: #cce6ff;
 }
 
@@ -322,11 +309,6 @@ h1 {
     width: 100%;
 }
 
-.carousel-caption {
-    bottom: 3rem;
-    z-index: 10;
-}
-
 .carousel-item {
     height: 20rem;
 }
@@ -379,7 +361,7 @@ button[type="submit"] {
     color: #fafafa;
     background-color: #001a33;
     font-family: "Roboto Condensed", sans-serif;
-    transition: #4C708C .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 /*----------------------------------------------------------------------FOOTER*/
@@ -437,7 +419,7 @@ footer {
 
 /*----------------------------------------------------------STYLING FOR TABLET*/
 
-@media (min-width: 991px) {
+@media (min-width:768px) {
     .header-text {
         width: 100%;
         margin-left: auto;
@@ -446,7 +428,7 @@ footer {
 
     h1 {
         font-size: 7em !important;
-        padding-top: 5em;
+        padding-top: 2em;
     }
     
     .social-list ul {
