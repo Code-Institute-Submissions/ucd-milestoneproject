@@ -2,7 +2,7 @@
 
 body {
     background-image: url("assets/images/white-wavesbg.png");
-    background-repeat: cover;
+    background-repeat: cover center;
     background-attachment: scroll;
 }
 
