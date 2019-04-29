@@ -51,16 +51,27 @@ There is also a footer which contains a brief overview of the band and the links
 ### Existing Features
 
 Navbar - This feature allows the user to immediately find what they are looking for, if they do not want to scroll down the page. It is also fixed, so if they do decide to keep scrolling they can easily click on the navbar items to find their desired section. It condenses into a toggler icon when a mobile or tablet is used, helping the screen appear less condensed. 
+
 ...
+
 Images - The images on the page allow the users to get a sense of the band's style when performing live and in person, along with their art style used in their album artworks. 
+
 ...
+
 Contact Form - The contact form at the end of the webpage includes a CTA to 'Get in touch' with the band members regarding having them play live. If a user wishes to have the band at their event, they can simply fill out the form with their name, email and message and this can be sent to the band. 
+
 ...
+
 Social Media - There are social media icons/links integrated into the website, at the beginning of the site and in the footer. This allows users to gain more information about the band by clicking these links and following them on social media. 
+
 ...
+
 Media - The media or 'Listen' section of the website allows the user to see and hear videos and clips from the bands catalog without having to leave the page. However if they would like more videos or audio they can access them via the social links or get onto Spotify through the audio clips. 
+
 ...
+
 Responsive - This website has been made responsive so it allows the user to access this page through their mobile, tablet or desktop and have a pleasant user experience each time. 
+
 ...
 
 ### Features Left to Implement
@@ -75,6 +86,7 @@ A News Section - As the band grows and gets more popular, I would like to includ
 ### Another feature idea
 
 An option to sign up for email updates - I would like to add a CTA where users can input their email address and become part of a mailing list for band news and tour updates.
+
 -----------------------
 
 ## Technologies Used
@@ -123,7 +135,8 @@ The user story of the fan interested in hearing some music from the band achieve
 
 The user story of the fan who wants the band to perform at their event achieved the intended outcome. They can fill in the contact form at the bottom of the page. If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. The 'required' attribute has been added to the 'name,' 'email,' and 'event description' fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. 
 
-I believe my project allows the user to achieve their goals in an easy, straightforward and pleasant way. On different screen sizes and browsers, the project looks good. I removed some text and images from the mobile screen size and from certain tablet sizes to make things look more attractive and less condensed. 
+I believe my project allows the user to achieve their goals in an easy, straightforward and pleasant way. On different screen sizes and browsers, the project looks good. I removed some text and images from the mobile screen size and from tablet sizes to make things look more attractive and less condensed for the user.
+
 
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
