@@ -1,4 +1,4 @@
-Bombay Bicycle Club's Website
+# Bombay Bicycle Club's Website
 
 
 This objective of this project is to create a front-only webpage for a band, namely Bombay Bicycle Club. The client's target audience are their long-standing fans and potential fans that may visit the site. 
@@ -12,11 +12,11 @@ The Footer contains information on the band members and reiterates the band's pr
 
  -----------------------
  
-UX
+## UX
 
-The main goal of this project was to build a website for a band. Regardless of which band I chose, I knew that there are certain features that every band website would want to have. For example, a band will always want to advertise their backcatalog and their upcoming performances. The user will expect to find music and tour dates on a band's website. 
+The main goal in the design of this project was to build a website for a band that was easily navigated while minimalistically designed. Regardless of which band I chose, I knew that there are certain features that every band website would want to have. For example, a band will always want to advertise their backcatalog and their upcoming performances. The user will expect to find music and tour dates on a band's website. 
 
-The brief for this project suggested a band which was very popular in the 1960's. Had I chose to progress with this band, the demographic targetted would have been in the 50 year old + bracket. In this case I would have made the website as simple as possible, as an older generation may not be as familiar with navigation through websites. However, I chose a more modern band than the band suggested in the brief. This meant that the demographic targetted with this website are in a younger age bracket, approximately 20-30 year olds, male or female. Regardless the design is a simple, single-scrolling layout with a navigation bar so a user can quickly get to the page area they wish to visit. 
+The brief for this project suggested a band which was very popular in the 1960's. Had I chosen to progress with this band, the demographic targetted would have been in the 50 year old+ bracket. In this case I would have made the website as simple as possible, as an older generation may not be as familiar with navigation through websites. However, I chose a more modern band than the band suggested in the brief. This meant that the demographic targetted with this website are in a younger age bracket, approximately 20-30 year olds, male or female. Regardless the design is a simple, single-scrolling layout with a navigation bar so a user can quickly get to the page area they wish to visit. 
 
 When a person visits a band website, they are usually looking for particular things - tour dates and music. 
 
@@ -30,7 +30,7 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 ------------------------
 
-Features
+## Features
 
 My project is broken up into 5 distinct page areas - Header, Tours, Listen and Contact. 
 
@@ -46,46 +46,86 @@ The Gallery page area contains examples of album artwork and photographs of the 
 The Contact page is a straightforward contact form where the user is encouraged to get in touch if they want the band to perfrom at their event. 
 
 There is also a footer which contains a brief overview of the band and the links to the client's social media are repeated. 
+
 ------------------------
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
+### Existing Features
+
+Navbar - This feature allows the user to immediately find what they are looking for, if they do not want to scroll down the page. It is also fixed, so if they do decide to keep scrolling they can easily click on the navbar items to find their desired section. It condenses into a toggler icon when a mobile or tablet is used, helping the screen appear less condensed. 
 ...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Images - The images on the page allow the users to get a sense of the band's style when performing live and in person, along with their art style used in their album artworks. 
+...
+Contact Form - The contact form at the end of the webpage includes a CTA to 'Get in touch' with the band members regarding having them play live. If a user wishes to have the band at their event, they can simply fill out the form with their name, email and message and this can be sent to the band. 
+...
+Social Media - There are social media icons/links integrated into the website, at the beginning of the site and in the footer. This allows users to gain more information about the band by clicking these links and following them on social media. 
+...
+Media - The media or 'Listen' section of the website allows the user to see and hear videos and clips from the bands catalog without having to leave the page. However if they would like more videos or audio they can access them via the social links or get onto Spotify through the audio clips. 
+...
+Responsive - This website has been made responsive so it allows the user to access this page through their mobile, tablet or desktop and have a pleasant user experience each time. 
+...
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+### Features Left to Implement
 
-a merchandise store
-a sign up for email updates option
-news section
+In the future, I would like to add more features to this website, such as: 
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. 
-For each, provide its name, a link to its official site and a short sentence of why it was used.
+A merchandise store - I believe an online shop where fans can buy their music (CDs and vinyls) and their merchandise such as t-shirts and tote bags would be a good addition to the website. In researching other band websites, I found many of them had this option and I would like to implement this in the future.
+
+A News Section - As the band grows and gets more popular, I would like to include a section with news about the band, such as new music releases or record deals. 
+
+
+### Another feature idea
+
+An option to sign up for email updates - I would like to add a CTA where users can input their email address and become part of a mailing list for band news and tour updates.
 -----------------------
-JQuery
+
+## Technologies Used
+
+#### HTML
+https://en.wikipedia.org/wiki/HTML
+
+HTML was used as it is the standard markup language for creating web pages and web applications and a great place to start on my first milestone project. 
+
+#### CSS
+https://en.wikipedia.org/wiki/Cascading_Style_Sheets
+
+Cascading Style Sheets are used to describe the appearance of a website and I used it to make my website look appealing to a user. 
+
+#### Bootstrap v4.0 
+https://getbootstrap.com/
+
+Bootstrap is a very useful resource as you can save time writing code by using the Bootstrap predefined design templates. It has a great grid system and is responsive to different screen resolutions. I used it in particular in creating the carousel and in the layout of the music video section. 
+
+#### JQuery
+https://jquery.com/
 
 The project uses JQuery to simplify DOM manipulation.
 
+#### JS
+https://getbootstrap.com/docs/4.3/getting-started/introduction/
+
+Many of Bootstrap's components require the use of JavaScript to function. Specifically, they require jQuery, Popper.js, and our own JavaScript plugins.
+
+#### Font Awesome
+https://fontawesome.com/
+
+Font Awesome is a great library of icons. I used this library for my social media icons.
+
+#### Google Fonts
+https://fonts.google.com/
+
+There is a great selection of fonts in the Google Fonts library, some of which I used in my project. 
+
 ----------------------
-Testing
+## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
-Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, 
-with the project providing an easy and straightforward way for the users to achieve their goals.
+The user story of a fan interested in seeing the band live achieved the intended outcome of providing them with a list of tour dates and links to social media. They can read up on the Tours section and if they are on desktop or tablet they can also see photos of the band performing live. 
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and 
-explain how to run them.
+The user story of the fan interested in hearing some music from the band achieved the intended outcome. The user can access a selection of music videos and audio in the Listen section. They can also hear music by following the Spotify and YouTube links where they will find a larger selection, if not all, of the bands repertoire. I tested the YouTube videos and clips on different screen sizes and they all worked well. On the mobile, the videos sat slightly to the left as opposed to the center, so this took a little tweaking to make it look more attractive. I manually tested each of the links to the band's social media accounts and each of these opened on a separate tab (due to using 'target="_blank"') to the correct destination. 
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
-A particularly useful form for describing your testing process is via scenarios, such as:
+The user story of the fan who wants the band to perform at their event achieved the intended outcome. They can fill in the contact form at the bottom of the page. If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. The 'required' attribute has been added to the 'name,' 'email,' and 'event description' fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. 
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
+I believe my project allows the user to achieve their goals in an easy, straightforward and pleasant way. On different screen sizes and browsers, the project looks good. I removed some text and images from the mobile screen size and from certain tablet sizes to make things look more attractive and less condensed. 
+
+
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.

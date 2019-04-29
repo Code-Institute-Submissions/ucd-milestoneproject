@@ -3,13 +3,15 @@
 body {
     background-image: url("/assets/images/white-wavesbg.png");
     background-repeat: cover center;
+    background-attachment: scroll;
 }
 
 
 /*
 .scrolling-sections {
     z-index: 2;
-    position: relative;
+    position: absolute;
+    width: 100%;
 }
 */
 
@@ -51,6 +53,14 @@ body {
 }
 
 /*---------------------------------------------------------------------HEADER */
+
+/*
+#top {
+    position: absolute;
+    z-index:1; 
+    width: 100%;
+}
+*/
 
 .HeaderSection {
     height: 100vh;
@@ -461,7 +471,7 @@ footer {
 
 /*----------------------------------------------------------STYLING FOR TABLET*/
 
-@media (min-width: 768px) {
+@media (min-width: 991px) {
     .header-text {
         width: 100%;
         margin-left: auto;
@@ -470,9 +480,9 @@ footer {
 
     h1 {
         font-size: 7em !important;
-        padding-top: 2.3em;
+        padding-top: 5em;
     }
-
+    
     .social-list ul {
         margin-right: 18px;
         height: 20vh;
