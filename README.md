@@ -26,7 +26,9 @@ As a user interested in hearing some music of the band, I want their website to 
 
 As a user who may want the band to perform at an event, I want to be able to contact the band or their managers. On this website the user can scroll down to or click Contact to be brought to a form which they can fill out. If the user scrolls down, they will be met with the dates that the band will be unavailable and gigs that the user can attend themselves if they wish to see the band live before their event. They also get samples of their music and pictures of the band so they can see if they are a good fit for their event. 
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+Here is the links to my wireframe evolution which are located in a folder in my project: /UXD/Wireframe 1.pdf and /UXD/Wireframe 2.pdf.
+
+Here is a link to my UXD document: /UXD/UXD .pdf
 
 ------------------------
 
@@ -70,7 +72,7 @@ Media - The media or 'Listen' section of the website allows the user to see and 
 
 ...
 
-Responsiveness - This website has been made responsive so it allows the user to access this page through their mobile, tablet or desktop and have a pleasant user experience each time. 
+Responsive - This website has been made responsive so it allows the user to access this page through their mobile, tablet or desktop and have a pleasant user experience each time. 
 
 ...
 
@@ -131,22 +133,29 @@ There is a great selection of fonts in the Google Fonts library, some of which I
 
 The user story of a fan interested in seeing the band live achieved the intended outcome of providing them with a list of tour dates and links to social media. They can read up on the Tours section and if they are on desktop or tablet they can also see photos of the band performing live. 
 
-The user story of the fan interested in hearing some music from the band achieved the intended outcome. The user can access a selection of music videos and audio in the Listen section. They can also hear music by following the Spotify and YouTube links where they will find a larger selection, if not all, of the bands repertoire. I tested the YouTube videos and clips on different screen sizes and they all worked well. On the mobile, the videos sat slightly to the left as opposed to the center, so this took a little tweaking to make it look more attractive. I manually tested each of the links to the band's social media accounts and each of these opened on a separate tab (due to using 'target="_blank"') to the correct destination. 
+The user story of the fan interested in hearing some music from the band achieved the intended outcome. The user can access a selection of music videos and audio in the Listen section. They can also hear music by following the Spotify and YouTube links where they will find a larger selection, if not all, of the bands repertoire. I tested how the YouTube videos and clips would play on different screen sizes and they worked well. On the mobile, the videos sat slightly to the left as opposed to the center, so this took a little tweaking to make it look more attractive. I manually tested each of the links to the band's social media accounts and each of these opened on a separate tab (due to using 'target="_blank"') to the correct destination. 
 
 The user story of the fan who wants the band to perform at their event achieved the intended outcome. They can fill in the contact form at the bottom of the page. If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. The 'required' attribute has been added to the 'name,' 'email,' and 'event description' fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. 
 
 I believe my project allows the user to achieve their goals in an easy, straightforward and pleasant way. On different screen sizes and browsers, the project looks good. I removed some text and images from the mobile screen size and from tablet sizes to make things look more attractive and less condensed for the user.
 
+I found a bug in playing the YouTube videos and Spotify clips when viewing on a tablet, as they would not respond to being played. However when I opened the website on my actual tablet, as opposed to using Google Dev and selecting iPad/ iPad Pro, it worked fine. 
 
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+
 
 -------------------------------
-Deployment
+## Deployment
+
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. 
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/MelBiggs/ucd-milestoneproject.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+
+
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
 In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
@@ -157,13 +166,44 @@ Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
 
 ------------------------------
-Credits
+## Credits
 
-Content
-The text for section Y was copied from the Wikipedia article Z
+### Content
+The text for the Tour Dates section was copied from the Bombay Bombay Bicycle Club Official Website. The text for the biography in the footer was taken from Bombay Bicycle Club's wikipedia page. 
 
-Media
-The photos used in this site were obtained from ...
+### Media
+The photos used in this site were obtained from Google Images: 
+
+##### /assets/images/Bombaybicycle1.jpg
+Photos by Rosie Wadey for Clash Magazine
+
+##### /assets/images/Bombaybicycle2.jpg
+Creator:Magic Liwanag
+Copyright:Copyright 2014 Magic Liwanag. 
+
+##### /assets/images/Bombaybicycle3.jpg
+Creator:Gary Wolstenholme
+Credit:Redferns via Getty Images
+Copyright:2014 Gary Wolstenholme
+
+##### Carousel Images 1-4 and image 6 - Album Artworks from Bombay Bicycle Club
+Designers: Scot Bendall, Richard Carey
+
+##### /assets/images/carousel5.jpg
+Photographer: Luke Dyson
+https://lukedyson.com/blog/Bombay-Bicycle-Club-at-Ibiza-Rocks/
+
+##### /assets/images/carousel7.jpeg
+Photographer: Sean Adams
+http://drownedinsound.com/in_depth/4148399-planet-gear--bombay-bicycle-clubs-drums-guitars-and-studio-set-up
+
+##### /assets/images/carousel8.jpg
+Copyright: Island Records
+
+##### /assets/images/carousel9.jpg - Album Artwork from Bombay Bicycle Club
+Designer: Joe Prytherch 
+http://www.joeprytherch.com/bombay-bicycle-club
+
 
 Acknowledgements
 I received inspiration for this project from the website of Father John Misty and Vampire Weekend. 
