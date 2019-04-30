@@ -6,24 +6,19 @@ body {
     background-attachment: scroll;
 }
 
-
 /*
 .scrolling-sections {
-    z-index: 2;
+    z-index: 3;
     position: absolute;
     width: 100%;
 }
 */
 
-
-/*
 #top {
-    position: absolute;
-    z-index:1; 
+    top:0px;
+    position: sticky;
     width: 100%;
 }
-*/
-
 
 
 /*
@@ -82,7 +77,7 @@ body {
 /*---------------------------------------------------------------------HEADER */
 
 .auto-height {
-    height: 100vh;
+    height: 200vh;
 }
 
 h1 {
