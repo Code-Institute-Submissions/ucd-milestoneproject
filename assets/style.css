@@ -376,12 +376,11 @@ footer {
 .aboutBand {
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
-    padding-bottom: 1em;
 }
 
 .footer-details {
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 
@@ -394,6 +393,7 @@ footer {
     display: inline-block;
     font-size: 1.5em;
     margin-right: 1.5em;
+    padding-right: 9px;
 }
 
 .social-links a {
