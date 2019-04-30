@@ -169,7 +169,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-The text for the Tour Dates section was copied from the Bombay Bombay Bicycle Club Official Website. The text for the biography in the footer was taken from Bombay Bicycle Club's wikipedia page. 
+The text for the Tour Dates section was copied from the Bombay Bombay Bicycle Club Official Website. The text for the biography in the footer was taken from Bombay Bicycle Club's wikipedia page. Bootstrap v4.0 helped me with the layout of the website, especially in the Music Section and in making the carousel and contact form. 
 
 ### Media
 The photos used in this site were obtained from Google Images: 
@@ -204,6 +204,8 @@ Copyright: Island Records
 Designer: Joe Prytherch 
 http://www.joeprytherch.com/bombay-bicycle-club
 
+##### /assets/images/white-wavesbg.png
+Found on Toptal https://www.toptal.com/designers/subtlepatterns/
 
-Acknowledgements
-I received inspiration for this project from the website of Father John Misty and Vampire Weekend. 
+### Acknowledgements
+I received inspiration for this project from the website of Father John Misty and Vampire Weekend. I received tips on snippets of code through CSS Tricks https://css-tricks.com/ and W3Schools https://www.w3schools.com/
