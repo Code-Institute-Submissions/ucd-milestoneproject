@@ -207,4 +207,4 @@ http://www.joeprytherch.com/bombay-bicycle-club
 Found on Toptal https://www.toptal.com/designers/subtlepatterns/
 
 ### Acknowledgements
-I received inspiration for this project from the website of Father John Misty and Vampire Weekend. I received tips on snippets of code through CSS Tricks https://css-tricks.com/ and W3Schools https://www.w3schools.com/. My mentor helped me to bring in the margins of my CSS code, making it appear more readable. 
+I received inspiration for this project from the website of Father John Misty and Vampire Weekend. I received tips on snippets of code through CSS Tricks https://css-tricks.com/ and W3Schools https://www.w3schools.com/. My mentor helped me to bring in the margins of my CSS code, making it appear more readable. The link generator from iFramely provided me with the skeleton of the Spotify audio clip code. 

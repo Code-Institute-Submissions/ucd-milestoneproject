@@ -33,12 +33,6 @@ body {
 
 /*---------------------------------------------------------------------HEADER */
 
-#top {
-    top: 0px;
-    position: sticky;
-    width: 100%;
-}
-
 .auto-height {
     height: 200vh;
 }
@@ -91,7 +85,6 @@ h1 {
     height: 30vh;
 }
 
-
 /*----------------------------------------------------------------------TOURS */
 
 .tour-updates {
@@ -129,7 +122,6 @@ h1 {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 
 .timeline-item p {
     padding-bottom: 25px;
@@ -182,10 +174,6 @@ h1 {
 
 /*---------------------------------------------------------------------LISTEN */
 
-.music-features {
-    width: 100%
-}
-
 .music-heading {
     color: #001a33;
     margin-bottom: 50px;
@@ -225,21 +213,11 @@ h1 {
     padding-bottom: 3em;
 }
 
-.music-features {
-    width: 100vh;
-    padding-left: 50px;
-    position: absolute;
-}
-
 .music-divider {
     margin-top: 3rem;
     margin-bottom: 3rem;
     border: 0;
     border-top: 1px solid rgba(0, 0, 0, .1);
-}
-
-.featurette-divider {
-    margin: 5rem 0;
 }
 
 /*----------------------------------------------------------------------AUDIO */
