@@ -166,12 +166,12 @@ To run locally, you can clone this repository directly into the editor of your c
 ## Credits
 
 ### Content
-Part of the text for the Tour Dates section was copied from the Bombay Bombay Bicycle Club Official Website. The text for the biography in the footer was taken from Bombay Bicycle Club's wikipedia page. Bootstrap v4.0 helped me with the layout of the website, especially in the Music Section and in making the carousel and contact form. 
+Part of the text for the Tour Dates section was copied from the [Bombay Bicycle Club Official Website](https://bombaybicycle.club/). The text for the biography in the footer was taken from [Bombay Bicycle Club's wikipedia page](https://en.wikipedia.org/wiki/Bombay_Bicycle_Club). Bootstrap v4.0 helped me with the layout of the website, especially in the Music Section and in making the carousel and contact form. 
 
 ### Media
 The photos used in this site were obtained from Google Images: 
 
-[/assets/images/Bombaybicycle1.jpg]
+##### /assets/images/Bombaybicycle1.jpg
 Photos by Rosie Wadey for Clash Magazine
 
 ##### /assets/images/Bombaybicycle2.jpg
@@ -205,6 +205,8 @@ http://www.joeprytherch.com/bombay-bicycle-club
 Found on Toptal https://www.toptal.com/designers/subtlepatterns/
 
 ### Acknowledgements
-I received inspiration for this project from the website of Father John Misty and Vampire Weekend. I received tips on snippets of code through CSS Tricks https://css-tricks.com/ and W3Schools https://www.w3schools.com/. My mentor helped me to bring in the margins of my CSS code, making it appear more readable. The link generator from iFramely provided me with the skeleton of the Spotify audio clip code. 
+I received inspiration for this project from the website of [Father John Misty](https://fatherjohnmisty.com/) and [Vampire Weekend](https://www.vampireweekend.com/). I received tips on snippets of code through CSS Tricks https://css-tricks.com/ and W3Schools https://www.w3schools.com/. The link generator from iFramely provided me with the skeleton of the Spotify audio clip code. 
+
+I would also like to thank my mentor Guido Cecilio for his help throughout the project. 
 
 [Link to Deployed Website](https://melbiggs.github.io/ucd-milestoneproject/)
