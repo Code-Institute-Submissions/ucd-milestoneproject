@@ -37,17 +37,12 @@ Here are the links to my wireframes which are located in a folder in my project:
 ------------------------
 ## Wireframes
 
-[Here is a link to my first wireframe](/UXD/Wireframe 1.pdf)
-
-[Here is a link to my second wireframe](/UXD/Wireframe 2.pdf)
 
 [Here is a link to my first wireframe](/UXD/Wireframe 1.pdf)
 
 [Here is a link to my second wireframe](/UXD/Wireframe 2.pdf)
 
-
-
-
+------------------------
 
 ## Features
 
@@ -104,68 +99,68 @@ An option to sign up for email updates - I would like to add a CTA where users c
 
 ## Technologies Used
 
-#### [Bootstrap 4.0](https://getbootstrap.com/)
+[Cloud9](https://aws.amazon.com/cloud9/)
+
+Cloud9 is the code editor I used to write the HTML and CSS.
+
+[Bootstrap 4.0](https://getbootstrap.com/)
 
 Bootstrap is a very useful CSS Framework. You can save time writing code by using the Bootstrap predefined design templates. It has a great grid system and is responsive to different screen resolutions. I used it in particular in creating the carousel and in the layout of the music video section. 
 
-#### [JQuery](https://jquery.com/)
+[JQuery](https://jquery.com/)
 
 The project uses JQuery to simplify DOM manipulation.
 
-#### [JS](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
+[JS](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
 Many of Bootstrap's components require the use of JavaScript to function. Specifically, they require jQuery, Popper.js, and our own JavaScript plugins.
 
-#### [FontAwesome](https://fontawesome.com/)
+[FontAwesome](https://fontawesome.com/)
 
 Font Awesome is a great library of icons. I used this library for my social media icons.
 
-#### [Google Fonts](https://fonts.google.com/)
+[Google Fonts](https://fonts.google.com/)
 
 There is a great selection of fonts in the Google Fonts library, some of which I used in my project. 
 
-#### [HTML](https://en.wikipedia.org/wiki/HTML)
+[HTML - Language](https://en.wikipedia.org/wiki/HTML)
 
 HTML was used as it is the standard markup language for creating web pages and web applications and a great place to start on my first milestone project. 
 
-#### [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+[CSS - Language](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 Cascading Style Sheets are used to describe the appearance of a website and I used it to make my website look appealing to the user. 
 
 ----------------------
 ## Testing
 
-The user story of a fan interested in seeing the band live achieved the intended outcome by providing them with a list of tour dates and links to social media. They can read up on the Tours section and if they are on desktop or tablet they can also see photos of the band performing live. 
+* The user story of a fan interested in seeing the band live achieved the intended outcome by providing them with a list of tour dates and links to social media. They can read up on the Tours section and if they are on desktop or tablet they can also see photos of the band performing live. 
 
-The user story of the fan interested in hearing some music achieved the intended outcome. The user can access a selection of music videos and audio in the Listen section. They can also hear music by following the Spotify and YouTube links where they will find a larger selection, if not all, of the bands repertoire. I tested how the YouTube videos and clips would play on different screen sizes and they worked well. On the mobile, the videos sat slightly to the left as opposed to the center, so this took a little tweaking to make it look more attractive. I manually tested each of the links to the band's social media accounts and each of these opened on a separate tab (due to using 'target="_blank"') to the correct destination. 
+* The user story of the fan interested in hearing some music achieved the intended outcome. The user can access a selection of music videos and audio in the Listen section. They can also hear music by following the Spotify and YouTube links where they will find a larger selection, if not all, of the bands repertoire. I tested how the YouTube videos and clips would play on different screen sizes and they worked well. On the mobile, the videos sat slightly to the left as opposed to the center, so this took a little tweaking to make it look more attractive. I manually tested each of the links to the band's social media accounts and each of these opened on a separate tab (due to using 'target="_blank"') to the correct destination. 
 
-The user story of the fan who wants the band to perform at their event achieved the intended outcome. They can fill in the contact form at the bottom of the page. If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. The 'required' attribute has been added to the 'name,' 'email,' and 'event description' fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. 
+* The user story of the fan who wants the band to perform at their event achieved the intended outcome. They can fill in the contact form at the bottom of the page. If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. The 'required' attribute has been added to the 'name,' 'email,' and 'event description' fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. 
 
 I believe my project allows the user to achieve their goals in an easy, straightforward and pleasant way. On different screen sizes and browsers, the project looks good. I removed some text and images from the mobile screen size and from tablet sizes to make things look more attractive and less condensed for the user.
 
 I found a bug in playing the YouTube videos and Spotify clips when viewing on a tablet with Google DevTools, as they would not respond to being played. However when I opened the website on my actual tablet it worked fine. 
 
-
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-
-
 -------------------------------
 ## Deployment
 
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. 
+### Deployment onto GitHub
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/MelBiggs/ucd-milestoneproject.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+1. The git repository was initiated by inputting the command `<git init>` into the terminal 
+2. I then used `<git add>` to add the files to the staging area before using the `<git commit -m "Description of work done">` command to commit the files.
+3. I created a repository on GitHub and linked to it by using command `<git remote add origin https://github.com/MelBiggs/ucd-milestoneproject.git>`
+4. I could then push my files into GitHub by using `<git push>`
+5. To publish my site using GitHub Pages, I navigated to my GitHub Pages site's repository.
+6. Under my repository name, I clicked Settings.
+7. I scrolled down to the GitHub Pages section and used the Select source drop-down menu to select 'master' as my GitHub Pages publishing source.
+8. Click save. 
 
+To summarise, this site is hosted using GitHub pages, deployed directly from the master branch and the deployed site will update automatically upon new commits to the master branch. 
 
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-
+To run locally, you can clone this repository directly into the editor of your choice by pasting `<git clone https://github.com/MelBiggs/ucd-milestoneproject.git>` into your terminal. To cut ties with this GitHub repository, type `<git remote rm origin>` into the terminal.
 
 ------------------------------
 ## Credits
@@ -176,7 +171,7 @@ Part of the text for the Tour Dates section was copied from the Bombay Bombay Bi
 ### Media
 The photos used in this site were obtained from Google Images: 
 
-##### /assets/images/Bombaybicycle1.jpg
+[/assets/images/Bombaybicycle1.jpg]
 Photos by Rosie Wadey for Clash Magazine
 
 ##### /assets/images/Bombaybicycle2.jpg
