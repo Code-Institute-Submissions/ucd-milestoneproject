@@ -32,16 +32,12 @@ As a user who may want the band to perform at an event, I want to be able to con
 
 [Here is a link to my UXD document](/UXD/UXD.pdf)
 
-[Here is a link to my first wireframe](/UXD/Wireframe 1.pdf)
-
-[Here is a link to my second wireframe](/UXD/Wireframe 2.pdf)
-
 ------------------------
 ## Wireframes
 
-[Here is a link to my first wireframe](/UXD/Wireframe 1.pdf)
+[Here is a link to my first wireframe](/UXD/Wireframe1.pdf)
 
-[Here is a link to my second wireframe](/UXD/Wireframe 2.pdf)
+[Here is a link to my second wireframe](/UXD/Wireframe2.pdf)
 
 ------------------------
 
