@@ -35,6 +35,12 @@ Here are the links to my wireframes which are located in a folder in my project:
 [Here is a link to my UXD document](/UXD/UXD.pdf)
 
 ------------------------
+## Wireframes
+
+[Here is a link to my first wireframe](/UXD/Wireframe 1.pdf)
+
+[Here is a link to my second wireframe](/UXD/Wireframe 2.pdf)
+
 
 ## Features
 
@@ -58,27 +64,21 @@ As the user scrolls down, they are met with the navbar which is fixed on the bot
 
 * Navbar - This feature allows the user to immediately find what they are looking for, if they do not want to scroll through the page. It is also fixed, so if they do decide to keep scrolling they can easily click on the navbar items to find their desired section. It condenses into a toggler icon when a mobile or tablet is used, helping the screen appear less condensed. 
 
-...
 
 * Images - The images on the page allow the user to see the band when performing live, along with the art used for their album covers. 
 
-...
 
 * Contact Form - The contact form at the end of the webpage includes a CTA to 'Get in touch' with the band members regarding having them play live. If a user wishes to have the band at their event, they can simply fill out the form with their name, email and message. 
 
-...
 
 * Social Media - There are social media icons/links integrated into the website, at the beginning and in the footer. This allows users to gain more information about the band by clicking these links and following them on social media. 
 
-...
 
 * Media - The media or 'Listen' section of the website allows the user to watch music videos and and hear audio clips from the band's catalog without having to leave the page. However if they would like more videos or audio they can access them via the social links. 
 
-...
 
 * Responsive - This website has been made responsive so it allows the user to access this page through their mobile, tablet or desktop and have a pleasant user experience each time. 
 
-...
 
 ### Features Left to Implement
 
