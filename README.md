@@ -30,15 +30,10 @@ As a user interested in hearing some music of the band, I want their website to 
 
 As a user who may want the band to perform at an event, I want to be able to contact the band or their managers. On this website the user can scroll down to or click Contact to be brought to a form which they can fill out. If the user scrolls down, they will be met with the dates that the band will be already be performing and gigs that the user can attend themselves if they wish to see the band live before their event. They also get samples of their music and pictures of the band so they can see if they are a good fit for their event. 
 
-Here are the links to my wireframes which are located in a folder in my project: /UXD/Wireframe 1.pdf and /UXD/Wireframe 2.pdf.
-
 [Here is a link to my UXD document](/UXD/UXD.pdf)
 
 ------------------------
 ## Wireframes
-
-[Here is a link to my first wireframe](../UXD/Wireframe 1.pdf)
-
 
 [Here is a link to my first wireframe](/UXD/Wireframe 1.pdf)
 
