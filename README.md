@@ -37,6 +37,8 @@ Here are the links to my wireframes which are located in a folder in my project:
 ------------------------
 ## Wireframes
 
+[Here is a link to my first wireframe](../UXD/Wireframe 1.pdf)
+
 
 [Here is a link to my first wireframe](/UXD/Wireframe 1.pdf)
 
