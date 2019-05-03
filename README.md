@@ -32,7 +32,7 @@ As a user who may want the band to perform at an event, I want to be able to con
 
 Here are the links to my wireframes which are located in a folder in my project: /UXD/Wireframe 1.pdf and /UXD/Wireframe 2.pdf.
 
-[Here is a link to my UXD document:](/UXD/UXD.pdf)
+[Here is a link to my UXD document](/UXD/UXD.pdf)
 
 ------------------------
 
@@ -40,43 +40,43 @@ Here are the links to my wireframes which are located in a folder in my project:
 
 My project is broken up into 5 distinct page areas - Header, Tours, Listen and Contact. 
 
-The Header is laid out in a simple, eye-catching way. It includes the band name and their social media links. In my research I found that many bands targetting a younger audience maintained a very straightforward opening page with their social media links. I adopted a similar style for my website. On desktop and tablet, the user is informed that a new album will be released soon, however I felt it appeared best to remove this from the mobile display. 
+* The Header is laid out in a simple, eye-catching way. It includes the band name and their social media links. In my research I found that many bands targetting a younger audience maintained a very straightforward opening page with their social media links. I adopted a similar style for my website. On desktop and tablet, the user is informed that a new album will be released soon, however I felt it appeared best to remove this from the mobile display. 
 As the user scrolls down, they are met with the navbar which is fixed on the bottom of the header and on the top of every other section. This way a user can easily navigate the site if they wish to immediately arrive at a certain point. It will also bring them back up to the top of the website. 
 
-The Tours page area is made up of a timeline list of tour dates for the band, which include the date of the perfomance, the venue and the location. The venue name is also a link to the venue's website. Opposite this timeline there are images of the band performing live, to give the user a taste of what is in store. 
+* The Tours page area is made up of a timeline list of tour dates for the band, which include the date of the perfomance, the venue and the location. The venue name is also a link to the venue's website. Opposite this timeline there are images of the band performing live, to give the user a taste of what is in store. 
 
-The Listen page area is where the user can listen to a selection of the band's music. There are 3 YouTube videos from 3 different albums. Below that there are 4 audio clips from Spotify. These song snippets entice the user to open the band's page on Spotify and will lead the user to following the band. 
+* The Listen page area is where the user can listen to a selection of the band's music. There are 3 YouTube videos from 3 different albums. Below that there are 4 audio clips from Spotify. These song snippets entice the user to open the band's page on Spotify and will lead the user to following the band. 
 
-The Gallery page area contains examples of album artwork and photographs of the band. 
+* The Gallery page area contains examples of album artwork and photographs of the band. 
 
-The Contact page is a straightforward contact form where the user is encouraged to get in touch if they want the band to perform at an event. 
+* The Contact page is a straightforward contact form where the user is encouraged to get in touch if they want the band to perform at an event. 
 
-There is also a footer which contains a brief overview of the band and the links to the client's social media are repeated. 
+* There is also a footer which contains a brief overview of the band and the links to the client's social media are repeated. 
 
 ------------------------
 ### Existing Features
 
-Navbar - This feature allows the user to immediately find what they are looking for, if they do not want to scroll through the page. It is also fixed, so if they do decide to keep scrolling they can easily click on the navbar items to find their desired section. It condenses into a toggler icon when a mobile or tablet is used, helping the screen appear less condensed. 
+* Navbar - This feature allows the user to immediately find what they are looking for, if they do not want to scroll through the page. It is also fixed, so if they do decide to keep scrolling they can easily click on the navbar items to find their desired section. It condenses into a toggler icon when a mobile or tablet is used, helping the screen appear less condensed. 
 
 ...
 
-Images - The images on the page allow the user to see the band when performing live, along with the art used for their album covers. 
+* Images - The images on the page allow the user to see the band when performing live, along with the art used for their album covers. 
 
 ...
 
-Contact Form - The contact form at the end of the webpage includes a CTA to 'Get in touch' with the band members regarding having them play live. If a user wishes to have the band at their event, they can simply fill out the form with their name, email and message. 
+* Contact Form - The contact form at the end of the webpage includes a CTA to 'Get in touch' with the band members regarding having them play live. If a user wishes to have the band at their event, they can simply fill out the form with their name, email and message. 
 
 ...
 
-Social Media - There are social media icons/links integrated into the website, at the beginning and in the footer. This allows users to gain more information about the band by clicking these links and following them on social media. 
+* Social Media - There are social media icons/links integrated into the website, at the beginning and in the footer. This allows users to gain more information about the band by clicking these links and following them on social media. 
 
 ...
 
-Media - The media or 'Listen' section of the website allows the user to watch music videos and and hear audio clips from the band's catalog without having to leave the page. However if they would like more videos or audio they can access them via the social links. 
+* Media - The media or 'Listen' section of the website allows the user to watch music videos and and hear audio clips from the band's catalog without having to leave the page. However if they would like more videos or audio they can access them via the social links. 
 
 ...
 
-Responsive - This website has been made responsive so it allows the user to access this page through their mobile, tablet or desktop and have a pleasant user experience each time. 
+* Responsive - This website has been made responsive so it allows the user to access this page through their mobile, tablet or desktop and have a pleasant user experience each time. 
 
 ...
 
@@ -84,9 +84,9 @@ Responsive - This website has been made responsive so it allows the user to acce
 
 In the future, I would like to add more features to this website, such as: 
 
-A merchandise store - I believe an online shop where fans can buy their music (CDs and vinyls) and their merchandise such as t-shirts and tote bags would be a good addition to the website. In researching other band websites, I found many of them had this option and I would like to implement this in the future.
+* A merchandise store - I believe an online shop where fans can buy their music (CDs and vinyls) and their merchandise such as t-shirts and tote bags would be a good addition to the website. In researching other band websites, I found many of them had this option and I would like to implement this in the future.
 
-A News Section - As the band grows and gets more popular, I would like to include a section with news about the band, such as new music releases or record deals. 
+* A News Section - As the band grows and gets more popular, I would like to include a section with news about the band, such as new music releases or record deals. 
 
 
 ### Another feature idea
@@ -97,40 +97,33 @@ An option to sign up for email updates - I would like to add a CTA where users c
 
 ## Technologies Used
 
-#### HTML
-https://en.wikipedia.org/wiki/HTML
-
-HTML was used as it is the standard markup language for creating web pages and web applications and a great place to start on my first milestone project. 
-
-#### CSS
-https://en.wikipedia.org/wiki/Cascading_Style_Sheets
-
-Cascading Style Sheets are used to describe the appearance of a website and I used it to make my website look appealing to the user. 
-
-#### Bootstrap v4.0 
-https://getbootstrap.com/
+#### [Bootstrap 4.0](https://getbootstrap.com/)
 
 Bootstrap is a very useful CSS Framework. You can save time writing code by using the Bootstrap predefined design templates. It has a great grid system and is responsive to different screen resolutions. I used it in particular in creating the carousel and in the layout of the music video section. 
 
-#### JQuery
-https://jquery.com/
+#### [JQuery](https://jquery.com/)
 
 The project uses JQuery to simplify DOM manipulation.
 
-#### JS
-https://getbootstrap.com/docs/4.3/getting-started/introduction/
+#### [JS](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 
 Many of Bootstrap's components require the use of JavaScript to function. Specifically, they require jQuery, Popper.js, and our own JavaScript plugins.
 
-#### Font Awesome
-https://fontawesome.com/
+#### [FontAwesome](https://fontawesome.com/)
 
 Font Awesome is a great library of icons. I used this library for my social media icons.
 
-#### Google Fonts
-https://fonts.google.com/
+#### [Google Fonts](https://fonts.google.com/)
 
 There is a great selection of fonts in the Google Fonts library, some of which I used in my project. 
+
+#### [HTML](https://en.wikipedia.org/wiki/HTML)
+
+HTML was used as it is the standard markup language for creating web pages and web applications and a great place to start on my first milestone project. 
+
+#### [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+Cascading Style Sheets are used to describe the appearance of a website and I used it to make my website look appealing to the user. 
 
 ----------------------
 ## Testing
