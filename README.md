@@ -1,4 +1,6 @@
-# Bombay Bicycle Club's Website
+[Link to Deployed Website](https://melbiggs.github.io/ucd-milestoneproject/)
+
+# Code Institute Milestone Project - Bombay Bicycle Club's Website
 
 
 The objective of this project is to create a front-only webpage for a band, namely Bombay Bicycle Club. The client's target audience are their long-standing fans and potential fans that may visit the site. 
@@ -208,3 +210,5 @@ Found on Toptal https://www.toptal.com/designers/subtlepatterns/
 
 ### Acknowledgements
 I received inspiration for this project from the website of Father John Misty and Vampire Weekend. I received tips on snippets of code through CSS Tricks https://css-tricks.com/ and W3Schools https://www.w3schools.com/. My mentor helped me to bring in the margins of my CSS code, making it appear more readable. The link generator from iFramely provided me with the skeleton of the Spotify audio clip code. 
+
+[Link to Deployed Website](https://melbiggs.github.io/ucd-milestoneproject/)
