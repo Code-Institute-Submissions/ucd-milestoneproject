@@ -1,6 +1,7 @@
 [Link to Deployed Website](https://melbiggs.github.io/ucd-milestoneproject/)
 
-# Code Institute Milestone Project - Bombay Bicycle Club's Website
+# Code Institute Milestone Project 
+## Bombay Bicycle Club's Website
 
 
 The objective of this project is to create a front-only webpage for a band, namely Bombay Bicycle Club. The client's target audience are their long-standing fans and potential fans that may visit the site. 
@@ -31,7 +32,7 @@ As a user who may want the band to perform at an event, I want to be able to con
 
 Here are the links to my wireframes which are located in a folder in my project: /UXD/Wireframe 1.pdf and /UXD/Wireframe 2.pdf.
 
-Here is a link to my UXD document: /UXD/UXD.pdf
+[Here is a link to my UXD document:](/UXD/UXD.pdf)
 
 ------------------------
 
