@@ -39,6 +39,9 @@ body {
     height:100vh;
 }
 
+
+/* auto-height and sliding-header set the boundaries for the scroll hide*/
+
 .auto-height {
     height: 200vh;
 }
@@ -95,6 +98,7 @@ h1 {
 .social-list ul {
     margin-right: 18px;
     height: 30vh;
+    padding-top: 15px;
 }
 
 /*----------------------------------------------------------------------TOURS */
@@ -217,7 +221,7 @@ h1 {
 }
 
 .embed-responsive-item {
-    padding-left: 30px;
+    padding-left: 30px; /*this center aligns the videos on mobile*/
 }
 
 .music-featurette {
@@ -272,7 +276,7 @@ h1 {
     position: relative;
     margin: auto;
     margin-bottom: 4rem;
-    width: auto;
+    width: auto
 }
 
 .carousel-item {
@@ -353,7 +357,6 @@ footer {
     text-align: center;
     padding-bottom: 0.5em;
 }
-
 
 .social-links {
     list-style: none;
@@ -466,7 +469,6 @@ footer {
         margin-bottom: 10em;
         width: 500px;
     }
-
 
     .social-links {
         list-style: none;
