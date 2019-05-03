@@ -10,7 +10,7 @@ body {
 /* --------------------------------------------------------------------NAV BAR*/
 
 #navBarAll {
-    background-color: rgba(31, 35, 39, 0.21);
+    background-color: rgba(234, 234, 234, 0.8);
 }
 
 .navbar-brand {
@@ -35,21 +35,10 @@ body {
 
 /*---------------------------------------------------------------------HEADER */
 
-.HeaderSectionHeight {
-    height:100vh;
-}
-
-
-/* auto-height and sliding-header set the boundaries for the scroll hide*/
+/* auto-height sets a boundary for the scroll reveal effect*/
 
 .auto-height {
     height: 200vh;
-}
-
-.sliding-header {
-    position:sticky; 
-    top:0px; 
-    z-index:-1;
 }
 
 h1 {
@@ -98,9 +87,7 @@ h1 {
 .social-list ul {
     margin-right: 18px;
     height: 30vh;
-    padding-top: 15px;
 }
-
 /*----------------------------------------------------------------------TOURS */
 
 .tour-updates {
@@ -251,7 +238,7 @@ h1 {
     background-color: #e5ede1;
     text-align: center;
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 /*--------------------------------------------------------------------GALLERY */
@@ -327,7 +314,7 @@ h1 {
 
 button[type="submit"] {
     margin-top: 15px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     color: #fafafa;
     background-color: #001a33;
     font-family: "Roboto Condensed", sans-serif;

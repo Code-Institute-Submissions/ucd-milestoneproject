@@ -139,7 +139,7 @@ Cascading Style Sheets are used to describe the appearance of a website and I us
 
 I believe my project allows the user to achieve their goals in an easy, straightforward and pleasant way. On different screen sizes and browsers, the project looks good. I removed some text and images from the mobile screen size and from tablet sizes to make things look more attractive and less condensed for the user.
 
-I found a bug in playing the YouTube videos and Spotify clips when viewing on a tablet with Google DevTools, as they would not respond to being played. However when I opened the website on my actual tablet it worked fine. 
+I found a bug in playing the YouTube videos and Spotify clips when viewing on a tablet with Google DevTools, as they would not respond to being played. However when I opened the website on my actual tablet it worked fine. I also found a bug in the navbar toggler as it does not close on click. These navbars close on reloading but as this is a single scroll page it does not reload, and hence does not close unless the toggle icon is clicked. When researching a solution, they were in JavaScript. When I move on with the course, I will go back and fix the toggler using JavaScript. 
 
 -------------------------------
 ## Deployment
@@ -163,7 +163,7 @@ To run locally, you can clone this repository directly into the editor of your c
 ## Credits
 
 ### Content
-Part of the text for the Tour Dates section was copied from the [Bombay Bicycle Club Official Website](https://bombaybicycle.club/). The text for the biography in the footer was taken from [Bombay Bicycle Club's wikipedia page](https://en.wikipedia.org/wiki/Bombay_Bicycle_Club). Bootstrap v4.0 helped me with the layout of the website, especially in the Music Section and in making the carousel and contact form. 
+Part of the text for the Tour Dates section was copied from the [Bombay Bicycle Club Official Website](https://bombaybicycle.club/). The text for the biography in the footer was taken from [Bombay Bicycle Club's wikipedia page](https://en.wikipedia.org/wiki/Bombay_Bicycle_Club). The code for the embedded Spotify clips were generated on [iFramely](https://iframely.com/domains/spotify). Bootstrap v4.0 helped me with the layout of the website, especially in the Music Section and in making the carousel and contact form. 
 
 ### Media
 The photos used in this site were obtained from Google Images: 
