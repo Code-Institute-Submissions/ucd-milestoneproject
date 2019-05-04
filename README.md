@@ -18,17 +18,17 @@ The Footer contains a brief piece of information on the band members and reitera
  
 ## UX
 
-The main goal in the design of this project was to build a website for a band that was easily navigated while minimalistically designed. Regardless of which band I chose, I knew that there are certain features that every band website would be expected to have. For example, a band will always want to advertise their backcatalog and their upcoming performances and the user will expect to find music and tour dates on a band's website. 
+The main goal in the design of this project was to build a website for a band that was easily navigated while minimalistically designed. Regardless of which band I chose, I knew that there are certain features that every band website would be expected to have. For example, a band will always want to advertise their back catalogue and their upcoming performances and the user will expect to find music and tour dates on a band's website. 
 
-The brief for this project suggested a band which was very popular in the 1960's. Had I chosen to progress with this band, the demographic targetted would have been in the 50 year old+ bracket. In this case I would have made the website as simple as possible, as an older generation may not be as familiar with navigating through websites. However, I chose a more recent band. This means that the demographic targetted with this website are in a younger age bracket, approximately 20-30 year olds, male or female. Regardless, the design is a simple, single-scrolling layout with a navigation bar so a user can quickly get to the page area they wish to visit. 
+The brief for this project suggested a band which was very popular in the 1960's. Had I chosen to progress with this band, the demographic targeted would have been in the 50 year old+ bracket. In this case I would have made the website as simple as possible, as an older generation may not be as familiar with navigating through websites. However, I chose a more recent band. This means that the demographic targeted with this website are in a younger age bracket, approximately 20-30 year olds, male or female. Regardless, the design is a simple, single-scrolling layout with a navigation bar so a user can quickly get to the page area they wish to visit. 
 
 When a person visits a band website, they are usually looking for particular things - tour dates and music. 
 
-As a user interested in finding out when I can see a band, I go to their website so I can find out if they are playing near me, or in a place I'd like to visit. As a user I want this information to be easily found and accessible. A person's initial response to seeing a large header is to scroll down. I placed the Tours section of my band website directly under the opening page area. This reminds the user that the band is touring, and shows them if they will be close to their area soon. As they scroll further, they come across some of the bands best-known songs, another reminder of why they need to buy their concert ticket.
+As a user interested in finding out when I can see a band live, I go to their website so I can find out if they are playing near me, or in a place I'd like to visit. As a user I want this information to be easily found and accessible. A person's initial response to seeing a large header is to scroll down. I placed the Tours section of my band website directly under the opening page area. This reminds the user that the band is touring, and shows them if they will be close to their area soon. As they scroll further, they come across some of the bands best-known songs, another reminder of why they need to buy their concert ticket.
 
-As a user interested in hearing some music of the band, I want their website to showcase their music and then but I also want to be shown where I can hear more. When the user arrives on the opening page area, they are greeted with a row of social media links, including links to music and video sites such as Spotify and YouTube. Clicking on Spotify, for example, will show the user all their albums, singles and playlists. They can then follow the band on these platforms, where they will have their whole repertoire at their fingertips. However if they scroll past those initial links, they will be met with a selection of embedded music videos and audio clips, taken from YouTube and Spotify, where they can listen to the band without leaving the page. There are also more links repeated in the footer of the website. 
+As a user interested in hearing some music of the band, I want their website to showcase their music but I also want to be shown where I can hear more. When the user arrives on the opening page area, they are greeted with a row of social media links, including links to music and video sites such as Spotify and YouTube. Clicking on Spotify, for example, will show the user all their albums, singles and playlists. They can then follow the band on these platforms, where they will have their whole repertoire at their fingertips. However if they scroll past those initial links, they will be met with a selection of embedded music videos and audio clips, taken from YouTube and Spotify, where they can listen to the band without leaving the page. There are also more links repeated in the footer of the website. 
 
-As a user who may want the band to perform at an event, I want to be able to contact the band or their managers. On this website the user can scroll down to or click Contact to be brought to a form which they can fill out. If the user scrolls down, they will be met with the dates that the band will be already be performing and gigs that the user can attend themselves if they wish to see the band live before their event. They also get samples of their music and pictures of the band so they can see if they are a good fit for their event. 
+As a user who may want the band to perform live at an event, I want to be able to contact the band or their managers. On this website the user can scroll down to or click Contact to be brought to a form which they can fill out. The user can also see the dates that the band will be already be performing and gigs that the user can attend themselves if they wish to see the band live before their event. They also get samples of their music and pictures of the band so they can see if they are a good fit for their event. 
 
 [Here is a link to my UXD document](/UXD/UXD.pdf)
 
@@ -45,10 +45,10 @@ As a user who may want the band to perform at an event, I want to be able to con
 
 My project is broken up into 5 distinct page areas - Header, Tours, Listen and Contact. 
 
-* The Header is laid out in a simple, eye-catching way. It includes the band name and their social media links. In my research I found that many bands targetting a younger audience maintained a very straightforward opening page with their social media links. I adopted a similar style for my website. On desktop and tablet, the user is informed that a new album will be released soon, however I felt it appeared best to remove this from the mobile display. 
+* The Header is laid out in a simple, eye-catching way. It includes the band name and their social media links. In my research, I found that many bands targeting a younger audience maintained a very straightforward opening page with their social media links. I adopted a similar style for my website. On desktop and tablet, the user is informed that a new album will be released soon, however I felt it appeared best to remove this from the mobile display. 
 As the user scrolls down, they are met with the navbar which is fixed on the bottom of the header and on the top of every other section. This way a user can easily navigate the site if they wish to immediately arrive at a certain point. It will also bring them back up to the top of the website. 
 
-* The Tours page area is made up of a timeline list of tour dates for the band, which include the date of the perfomance, the venue and the location. The venue name is also a link to the venue's website. Opposite this timeline there are images of the band performing live, to give the user a taste of what is in store. 
+* The Tours page area is made up of a timeline list of tour dates for the band, which include the date of the performance, the venue and the location. The venue name is also a link to the venue's website. Opposite this timeline there are images of the band performing live, to give the user a taste of what is in store. 
 
 * The Listen page area is where the user can listen to a selection of the band's music. There are 3 YouTube videos from 3 different albums. Below that there are 4 audio clips from Spotify. These song snippets entice the user to open the band's page on Spotify and will lead the user to following the band. 
 
@@ -73,7 +73,7 @@ As the user scrolls down, they are met with the navbar which is fixed on the bot
 * Social Media - There are social media icons/links integrated into the website, at the beginning and in the footer. This allows users to gain more information about the band by clicking these links and following them on social media. 
 
 
-* Media - The media or 'Listen' section of the website allows the user to watch music videos and and hear audio clips from the band's catalog without having to leave the page. However if they would like more videos or audio they can access them via the social links. 
+* Media - The media or 'Listen' section of the website allows the user to watch music videos and hear audio clips from the band's catalogue without having to leave the page. However if they would like more videos or audio they can access them via the social links. 
 
 
 * Responsive - This website has been made responsive so it allows the user to access this page through their mobile, tablet or desktop and have a pleasant user experience each time. 
@@ -83,7 +83,7 @@ As the user scrolls down, they are met with the navbar which is fixed on the bot
 
 In the future, I would like to add more features to this website, such as: 
 
-* A merchandise store - I believe an online shop where fans can buy their music (CDs and vinyls) and their merchandise such as t-shirts and tote bags would be a good addition to the website. In researching other band websites, I found many of them had this option and I would like to implement this in the future.
+* A merchandise store - I believe an online shop where fans can buy their music (CDs and vinyl) and their merchandise such as t-shirts and tote bags would be a good addition to the website. In researching other band websites, I found many of them had this option and I would like to implement this in the future.
 
 * A News Section - As the band grows and gets more popular, I would like to include a section with news about the band, such as new music releases or record deals. 
 
@@ -139,7 +139,7 @@ Cascading Style Sheets are used to describe the appearance of a website and I us
 
 I believe my project allows the user to achieve their goals in an easy, straightforward and pleasant way. On different screen sizes and browsers, the project looks good. I removed some text and images from the mobile screen size and from tablet sizes to make things look more attractive and less condensed for the user.
 
-I found a bug in playing the YouTube videos and Spotify clips when viewing on a tablet with Google DevTools, as they would not respond to being played. However when I opened the website on my actual tablet it worked fine. I also found a bug in the navbar toggler as it does not close on click. These navbars close on reloading but as this is a single scroll page it does not reload, and hence does not close unless the toggle icon is clicked. When researching a solution, they were in JavaScript. When I move on with the course, I will go back and fix the toggler using JavaScript. 
+I found a bug in playing the YouTube videos and Spotify clips when viewing on a tablet with Google DevTools, as they would not respond to being played. However when I opened the website on my actual tablet it worked fine. I also found a bug in the navbar toggler as it does not close on click. These navbars close on reloading but as this is a single scroll page it does not reload, and hence does not close unless the toggle icon is clicked. When researching this, the solutions were in JavaScript. When I move on with the course, I will go back and fix the toggler using JavaScript. 
 
 -------------------------------
 ## Deployment
