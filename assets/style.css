@@ -6,6 +6,16 @@ body {
     background-attachment: scroll;
 }
 
+.sections {
+    position: relative;
+    z-index: 2;
+}
+
+.slidingHeader {
+    position:sticky; 
+    top:0px; 
+    z-index:1; /*gave z-index a positive number as making it -1 makes the links unclickable */
+}
 
 /* --------------------------------------------------------------------NAV BAR*/
 
@@ -40,6 +50,9 @@ body {
 .auto-height {
     height: 200vh;
 }
+.HeaderArea {
+    height:100vh;
+}
 
 h1 {
     padding-top: 3em;
@@ -58,23 +71,25 @@ h1 {
 
 .social-list {
     color: #001a33;
+    padding-top: 10px;
     list-style: none;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+    text-align: center;
 }
 
 .social-list li {
-    display: inline;
-    text-align: center;
-    padding: 10px;
-    font-size: 1.5em;
+    display: inline-block;
+    padding: 5px;
 }
 
 .social-list li a {
     color: #001a33;
+    font-size: 1.5em;
 }
+
 
 .social-list li a:hover {
     color: #b3daff;
@@ -88,6 +103,7 @@ h1 {
     margin-right: 18px;
     height: 30vh;
 }
+
 /*----------------------------------------------------------------------TOURS */
 
 .tour-updates {
@@ -208,7 +224,8 @@ h1 {
 }
 
 .embed-responsive-item {
-    padding-left: 30px; /*this center aligns the videos on mobile*/
+    padding-left: 30px;
+    /*this center aligns the videos on mobile*/
 }
 
 .music-featurette {
@@ -252,7 +269,7 @@ h1 {
     text-align: center;
 }
 
-/*--Carousel made auto for mobile, but given specific height and width on tablet and desktop as it makes for better UX */ 
+/*--Carousel made auto for mobile, but given specific height and width on tablet and desktop as it makes for better UX */
 
 .carousel-inner {
     width: auto;
@@ -387,6 +404,10 @@ footer {
         padding-top: 2em;
     }
 
+    .social-list li a {
+        font-size: 2em;
+    }
+
     .social-list ul {
         margin-right: 18px;
         height: 20vh;
@@ -481,6 +502,10 @@ footer {
 
     h1 {
         padding-top: 1.5em;
+    }
+
+    .social-list li a {
+        font-size: 2em;
     }
 
     #main-title {
