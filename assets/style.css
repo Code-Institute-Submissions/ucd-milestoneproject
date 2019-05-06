@@ -128,7 +128,7 @@ h1 {
 }
 
 .timeline-item a {
-    color: #001a33;
+    color: #0d365f;
 }
 
 .timeline-item: hover {
@@ -331,7 +331,7 @@ h1 {
 
 button[type="submit"] {
     margin-top: 15px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     color: #fafafa;
     background-color: #001a33;
     font-family: "Roboto Condensed", sans-serif;
