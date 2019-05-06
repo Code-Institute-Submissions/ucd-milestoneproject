@@ -8,7 +8,7 @@ body {
 
 .sections {
     position: relative;
-    z-index: 2;
+    z-index: 2;  /* this encompasses all sections except the header - making z-index:2 allows the header to slide under them */
 }
 
 .slidingHeader {
@@ -269,7 +269,7 @@ h1 {
     text-align: center;
 }
 
-/*--Carousel made auto for mobile, but given specific height and width on tablet and desktop as it makes for better UX */
+/*--Carousel made auto for mobile, but given specific height and width on tablet and desktop as it made for better UX */
 
 .carousel-inner {
     width: auto;

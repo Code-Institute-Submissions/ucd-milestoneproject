@@ -206,7 +206,7 @@ http://www.joeprytherch.com/bombay-bicycle-club
 Found on Toptal https://www.toptal.com/designers/subtlepatterns/
 
 ### Acknowledgements
-I received inspiration for this project from the website of [Father John Misty](https://fatherjohnmisty.com/) and [Vampire Weekend](https://www.vampireweekend.com/). I received tips on snippets of code through CSS Tricks https://css-tricks.com/ and W3Schools https://www.w3schools.com/. 
+I received inspiration for this project from the website of [Father John Misty](https://fatherjohnmisty.com/) and [Vampire Weekend](https://www.vampireweekend.com/). I received tips on snippets of my code through CSS Tricks https://css-tricks.com/ and W3Schools https://www.w3schools.com/. 
 
 I would like to thank my mentor Guido Cecilio for his help and guidance throughout the project. I would also like to thank my mam for helping me test the responsiveness of the website. 
 
