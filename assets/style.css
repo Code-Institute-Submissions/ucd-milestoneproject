@@ -14,7 +14,7 @@ body {
 .slidingHeader {
     position:sticky; 
     top:0px; 
-    z-index:1; /*gave z-index a positive number as making it -1 makes the links unclickable */
+    z-index:1; /* gave z-index a positive number as making it -1 makes the links unclickable */
 }
 
 /* --------------------------------------------------------------------NAV BAR*/
@@ -269,7 +269,7 @@ h1 {
     text-align: center;
 }
 
-/*--Carousel made auto for mobile, but given specific height and width on tablet and desktop as it made for better UX */
+/*-- Carousel is made auto for mobile, but given specific height and width on tablet and desktop as it made for better UX */
 
 .carousel-inner {
     width: auto;
