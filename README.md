@@ -176,23 +176,23 @@ The photos used in this site were obtained from Google Images:
 Photos by Rosie Wadey for Clash Magazine
 
 ##### /assets/images/Bombaybicycle2.jpg
-Creator:Magic Liwanag
-Copyright:Copyright 2014 Magic Liwanag. 
+Creator: Magic Liwanag 
+Copyright: Copyright 2014 Magic Liwanag  
 
 ##### /assets/images/Bombaybicycle3.jpg
-Creator:Gary Wolstenholme
-Credit:Redferns via Getty Images
-Copyright:2014 Gary Wolstenholme
+Creator: Gary Wolstenholme 
+Credit: Redferns via Getty Images 
+Copyright: 2014 Gary Wolstenholme 
 
 ##### Carousel Images 1-4 and image 6 - Album Artworks from Bombay Bicycle Club
 Designers: Scot Bendall, Richard Carey
 
 ##### /assets/images/carousel5.jpg
-Photographer: Luke Dyson
+Photographer: Luke Dyson 
 https://lukedyson.com/blog/Bombay-Bicycle-Club-at-Ibiza-Rocks/
 
 ##### /assets/images/carousel7.jpeg
-Photographer: Sean Adams
+Photographer: Sean Adams 
 http://drownedinsound.com/in_depth/4148399-planet-gear--bombay-bicycle-clubs-drums-guitars-and-studio-set-up
 
 ##### /assets/images/carousel8.jpg
