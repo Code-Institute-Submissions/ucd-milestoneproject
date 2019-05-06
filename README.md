@@ -4,7 +4,7 @@
 ## Bombay Bicycle Club's Website
 
 
-The objective of this project is to create a front-only webpage for a band, namely Bombay Bicycle Club. The client's target audience are their long-standing fans and potential fans that may visit the site. 
+The objective of this project is to create a frontend-only webpage for a band, namely Bombay Bicycle Club. The client's target audience are their long-standing fans and potential fans that may visit the site. 
 
 This is a single-scrollling page with sections that draw attention to the client's upcoming performances, a selection of the clients back catalog, photographs of the band and their album artwork and a form where fans can contact the band if they want them to perform at their event.
 
@@ -161,6 +161,8 @@ To summarise, this site is hosted using GitHub pages, deployed directly from the
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting `<git clone https://github.com/MelBiggs/ucd-milestoneproject.git>` into your terminal. To cut ties with this GitHub repository, type `<git remote rm origin>` into the terminal.
 
+A difference I noticed between the development version of my site and the deployed version is that at times the scroll reveal effect does not work on mobile. It works on desktop and in the DevTools however. Also at times the background image takes times to load in the deployed version. 
+
 ------------------------------
 ## Credits
 
@@ -206,6 +208,6 @@ Found on Toptal https://www.toptal.com/designers/subtlepatterns/
 ### Acknowledgements
 I received inspiration for this project from the website of [Father John Misty](https://fatherjohnmisty.com/) and [Vampire Weekend](https://www.vampireweekend.com/). I received tips on snippets of code through CSS Tricks https://css-tricks.com/ and W3Schools https://www.w3schools.com/. 
 
-I would like to thank my mentor Guido Cecilio for his help throughout the project. I would also like to thank my mam for helping me test the responsiveness of the website. 
+I would like to thank my mentor Guido Cecilio for his help and guidance throughout the project. I would also like to thank my mam for helping me test the responsiveness of the website. 
 
 [Link to Deployed Website](https://melbiggs.github.io/ucd-milestoneproject/)
