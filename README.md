@@ -83,9 +83,9 @@ As the user scrolls down, they are met with the navbar which is fixed on the bot
 
 In the future, I would like to add more features to this website, such as: 
 
-* A merchandise store - I believe an online shop where fans can buy their music (CDs and vinyl) and their merchandise such as t-shirts and tote bags would be a good addition to the website. In researching other band websites, I found many of them had this option and I would like to implement this in the future.
+* A merchandise store - I believe an online shop where fans can buy their music (CDs and vinyl) and their merchandise such as t-shirts and tote bags would be a good addition to the website. In researching the websites of other musicians, I found many of them had this option and I would like to implement this in the future.
 
-* A News Section - As the band grows and gets more popular, I would like to include a section with news about the band, such as new music releases or record deals. 
+* A News Section - As the band's popularity grows, I would like to include a section with news about the band, such as new music releases or record deals. 
 
 
 ### Another feature idea
@@ -102,7 +102,7 @@ Cloud9 is the code editor I used to write the HTML and CSS.
 
 [Bootstrap 4.0](https://getbootstrap.com/)
 
-Bootstrap is a very useful CSS Framework. You can save time writing code by using the Bootstrap predefined design templates. It has a great grid system and is responsive to different screen resolutions. I used it in particular in creating the carousel and in the layout of the music video section. 
+Bootstrap is a very useful CSS Framework. You can save time writing code by using the Bootstrap predefined design templates. It has a great grid system and is responsive to different screen resolutions. It can be seen in action in the carousel and in the layout of the music video section. 
 
 [JQuery](https://jquery.com/)
 
@@ -122,7 +122,7 @@ There is a great selection of fonts in the Google Fonts library, some of which I
 
 [HTML - Language](https://en.wikipedia.org/wiki/HTML)
 
-HTML was used as it is the standard markup language for creating web pages and web applications and a great place to start on my first milestone project. 
+HTML was used as it is the standard markup language for creating web pages and web applications so it was a great place to start on my first milestone project. 
 
 [CSS - Language](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
@@ -131,15 +131,17 @@ Cascading Style Sheets are used to describe the appearance of a website and I us
 ----------------------
 ## Testing
 
-* The user story of a fan interested in seeing the band live achieved the intended outcome by providing them with a list of tour dates and links to social media. They can read up on the Tours section and if they are on desktop or tablet they can also see photos of the band performing live. 
+* The user story of a fan interested in seeing the band live achieved the intended outcome by providing them with a list of tour dates and links to social media. They can read up on the Tours section - if they are on desktop or tablet they can also see photos of the band performing live. 
 
 * The user story of the fan interested in hearing some music achieved the intended outcome. The user can access a selection of music videos and audio in the Listen section. They can also hear music by following the Spotify and YouTube links where they will find a larger selection, if not all, of the bands repertoire. I tested how the YouTube videos and clips would play on different screen sizes and they worked well. On the mobile, the videos sat slightly to the left as opposed to the center, so this took a little tweaking to make it look more attractive. I manually tested each of the links to the band's social media accounts and each of these opened on a separate tab (due to using 'target="_blank"') to the correct destination. 
 
-* The user story of the fan who wants the band to perform at their event achieved the intended outcome. They can fill in the contact form at the bottom of the page. If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. The 'required' attribute has been added to the 'name,' 'email,' and 'event description' fields, so if those fields are not filled in, the form will not submit. If all field are valid, the page will reload. 
+* The user story of the fan who wants the band to perform at their event achieved the intended outcome. They can fill in the contact form at the bottom of the page. If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. The 'required' attribute has been added to the 'name,' 'email,' and 'event description' fields, so if those fields are not filled in, the form will not submit. If all fields are valid, the page will reload. 
 
 I believe my project allows the user to achieve their goals in an easy, straightforward and pleasant way. On different screen sizes and browsers, the project looks good. I removed some text and images from the mobile screen size and from tablet sizes to make things look more attractive and less condensed for the user.
 
-I found a bug in playing the YouTube videos and Spotify clips when viewing on a tablet with Google DevTools, as they would not respond to being played. However when I opened the website on my actual tablet it worked fine. I also found a bug in the navbar toggler as it does not close on click. These navbars close on reloading but as this is a single scroll page it does not reload, and hence does not close unless the toggle icon is clicked. When researching this, the solutions were in JavaScript. When I move on with the course, I will go back and fix the toggler using JavaScript. 
+I found a bug in playing the YouTube videos and Spotify clips when viewing on a tablet with Google DevTools, as at times they would not respond to being played. However when I opened the website on my actual tablet it worked fine. 
+I also found a bug in the navbar toggler as it does not close on click. These navbars close on reloading but as this is a single scroll page it does not reload, and hence does not close unless the toggle icon is clicked. When researching this, the solutions were in JavaScript. When I move on with the course, I will go back and fix the toggler using JavaScript.
+I found an interesting bug when I put the scroll reveal on the header area. When a z-index of -1 was applied to the area, it cancelled out my links so that they could not be clicked. When I made the z-index:1 and the rest of the page z-index:2 the links worked perfectly. 
 
 -------------------------------
 ## Deployment
@@ -202,8 +204,8 @@ http://www.joeprytherch.com/bombay-bicycle-club
 Found on Toptal https://www.toptal.com/designers/subtlepatterns/
 
 ### Acknowledgements
-I received inspiration for this project from the website of [Father John Misty](https://fatherjohnmisty.com/) and [Vampire Weekend](https://www.vampireweekend.com/). I received tips on snippets of code through CSS Tricks https://css-tricks.com/ and W3Schools https://www.w3schools.com/. The link generator from iFramely provided me with the skeleton of the Spotify audio clip code. 
+I received inspiration for this project from the website of [Father John Misty](https://fatherjohnmisty.com/) and [Vampire Weekend](https://www.vampireweekend.com/). I received tips on snippets of code through CSS Tricks https://css-tricks.com/ and W3Schools https://www.w3schools.com/. 
 
-I would also like to thank my mentor Guido Cecilio for his help throughout the project. 
+I would like to thank my mentor Guido Cecilio for his help throughout the project. I would also like to thank my mam for helping me test the responsiveness of the website. 
 
 [Link to Deployed Website](https://melbiggs.github.io/ucd-milestoneproject/)
