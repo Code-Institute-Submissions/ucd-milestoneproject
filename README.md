@@ -161,7 +161,7 @@ To summarise, this site is hosted using GitHub pages, deployed directly from the
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting `<git clone https://github.com/MelBiggs/ucd-milestoneproject.git>` into your terminal. To cut ties with this GitHub repository, type `<git remote rm origin>` into the terminal.
 
-A difference I noticed between the development version of my site and the deployed version is that at times the scroll reveal effect does not work on mobile. It works on desktop and in the DevTools however. Also at times the background image takes some time to load in the deployed version, at times not appearing. 
+A difference I noticed between the development version of my site and the deployed version is that at times the scroll reveal effect does not work on mobile. It works on desktop and in the DevTools however. 
 
 ------------------------------
 ## Credits

@@ -131,7 +131,7 @@ h1 {
     color: #0d365f;
 }
 
-.timeline-item: hover {
+.timeline-item :hover a {
     color: #627A8E;
 }
 
@@ -506,12 +506,6 @@ footer {
 
     .social-list li a {
         font-size: 2em;
-    }
-
-    #main-title {
-        font-size: 7em !important;
-        font-family: "Bungee Inline", cursive, sans-serif;
-        color: #001a33;
     }
 
     .nav-item {
